@@ -9,7 +9,7 @@ const config = {
   // 网站名称
   title: 'Jetzihan',
   tagline: '',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://jetzihan.netlify.app',
   // baseUrl: '/MyNewBlog/',  // ghpages建议这样
   baseUrl:'/',  // Netlify建议这样
   onBrokenLinks: 'throw',
@@ -39,7 +39,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/inannan423/MyNewBlog/tree/main/',
+            'https://github.com/inannan423/inannan423.github.io/tree/main/',
         },
 
         blog: {
@@ -47,7 +47,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/inannan423/MyNewBlog/tree/main/',
+            'https://github.com/inannan423/inannan423.github.io/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -176,7 +176,7 @@ const config = {
               },
               {
                 label: 'Source Code',
-                href: 'https://github.com/inannan423/MyNewBlog',
+                href: 'https://github.com/inannan423/inannan423.github.io',
               },
               {
                 label: '北林计协',
