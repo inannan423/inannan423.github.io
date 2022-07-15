@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Jetzihan Blog</title>
-        <link>https://your-docusaurus-test-site.com/blog</link>
+        <link>https://jetzihan.netlify.app/blog</link>
         <description>Jetzihan Blog</description>
         <lastBuildDate>Wed, 13 Jul 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>zh-Hans</language>
         <item>
             <title><![CDATA[在线编码器]]></title>
-            <link>https://your-docusaurus-test-site.com/blog/codingbox</link>
+            <link>https://jetzihan.netlify.app/blog/codingbox</link>
             <guid>codingbox</guid>
             <pubDate>Wed, 13 Jul 2022 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<div class="tabs-container tabList__CuJ"><ul role="tablist" aria-orientation="horizontal" class="tabs"><li role="tab" tabindex="0" aria-selected="true" class="tabs__item tabItem_LNqP tabs__item--active">JavaScript</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_LNqP">Python</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_LNqP">Java</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_LNqP">html</li></ul><div class="margin-top--md"><div role="tabpanel" class="tabItem_Ymn6"><div class="playgroundContainer_X_Ta"><div class="playgroundHeader_dyrN">实时编辑器</div><div class="playgroundEditor_Q6Y7" style="position:relative;text-align:left;box-sizing:border-box;padding:0;overflow:hidden;white-space:pre;font-family:monospace;color:#393A34;background-color:#f6f8fa"><textarea style="margin:0;border:0;background:none;box-sizing:inherit;display:inherit;font-family:inherit;font-size:inherit;font-style:inherit;font-variant-ligatures:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;tab-size:inherit;text-indent:inherit;text-rendering:inherit;text-transform:inherit;white-space:pre-wrap;word-break:keep-all;overflow-wrap:break-word;position:absolute;top:0;left:0;height:100%;width:100%;resize:none;color:inherit;overflow:hidden;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;-webkit-text-fill-color:transparent;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px" class="npm__react-simple-code-editor__textarea" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" data-gramm="false">function helloWorld() {
@@ -130,7 +130,7 @@
         </item>
         <item>
             <title><![CDATA[使用百度API实现老照片上色]]></title>
-            <link>https://your-docusaurus-test-site.com/blog/baiduoldpic</link>
+            <link>https://jetzihan.netlify.app/blog/baiduoldpic</link>
             <guid>baiduoldpic</guid>
             <pubDate>Tue, 12 Jul 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[前言]]></description>
@@ -150,7 +150,7 @@
         </item>
         <item>
             <title><![CDATA[EasyX图形界面构建]]></title>
-            <link>https://your-docusaurus-test-site.com/blog/easyx</link>
+            <link>https://jetzihan.netlify.app/blog/easyx</link>
             <guid>easyx</guid>
             <pubDate>Tue, 12 Jul 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[EasyX用户图形界面的构建]]></description>
@@ -162,7 +162,7 @@
         </item>
         <item>
             <title><![CDATA[认识Vue框架]]></title>
-            <link>https://your-docusaurus-test-site.com/blog/first-blog-post</link>
+            <link>https://jetzihan.netlify.app/blog/first-blog-post</link>
             <guid>first-blog-post</guid>
             <pubDate>Mon, 11 Jul 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Vue.js简介]]></description>
