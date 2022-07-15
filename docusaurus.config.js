@@ -186,10 +186,13 @@ const config = {
                 label: '四外维科技',
                 href: 'https://swwtech.github.io/',
               },
+              {
+                html:`<a href="https://www.netlify.com/" target="_blank"><img style="height:50px" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/netlify.png"/><a/>`
+              }
             ],
           },
         ],
-        copyright: `<br/> <a href="https://www.netlify.com/" target="_blank"><img style="height:50px" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/netlify.png"/><a/>  <br/> Copyright © ${new Date().getFullYear()} Made with ❤ by Chengzihan. <br> Powered by Docusaurus.`,
+        copyright: `<br/> Copyright © ${new Date().getFullYear()} Made with ❤ by Chengzihan. <br> Powered by Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
