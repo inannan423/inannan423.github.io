@@ -1,0 +1,8 @@
+{
+  "label": "借助Docusaurus搭建博客",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Docusaurus是Facebook开源的基于React.js的静态网站构建器"
+  }
+}

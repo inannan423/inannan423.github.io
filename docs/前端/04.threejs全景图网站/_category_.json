@@ -1,0 +1,8 @@
+{
+  "label": "threejs全景图网站",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "基于Vue和Threejs的全景图网站"
+  }
+}
