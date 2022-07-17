@@ -111,7 +111,16 @@ const config = {
           // },
           {
             href: 'https://github.com/inannan423',
-            html:`<a href="https://github.com/inannan423" target="_blank"><img style="height:35px;position:relative;top:5px" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/gtihb1.png"/><a/>`,
+            html: `<a href="https://github.com/inannan423" target="_blank"><img class="img" style="height:35px;position:relative;top:5px" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/gtihb1.png"/><a/>
+            <style>
+            .img{
+              transition:all 1s ease-in-out;
+            }
+            .img:hover{
+              opacity:0.6;
+            }
+            </style>
+            `,
             position: 'right',
           },
         ],
