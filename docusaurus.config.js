@@ -115,9 +115,11 @@ const config = {
             <style>
             .img{
               transition:all 1s ease-in-out;
+              width:110px;
             }
             .img:hover{
               opacity:0.6;
+              
             }
             </style>
             `,
