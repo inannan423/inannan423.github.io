@@ -104,27 +104,27 @@ const config = {
           position: 'right',
           to: 'website',
         },
-          // {
-          //   href: 'https://github.com/inannan423',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
           {
             href: 'https://github.com/inannan423',
-            html: `<a href="https://github.com/inannan423" target="_blank"><img class="img" style="height:35px;position:relative;top:5px" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/gtihb1.png"/><a/>
-            <style>
-            .img{
-              transition:all 1s ease-in-out;
-              width:110px;
-            }
-            .img:hover{
-              opacity:0.6;
-              
-            }
-            </style>
-            `,
+            label: 'GitHub',
             position: 'right',
           },
+          // {
+          //   href: 'https://github.com/inannan423',
+          //   html: `<a href="https://github.com/inannan423" target="_blank"><img class="img" style="height:35px;position:relative;top:5px" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/gtihb1.png"/><a/>
+          //   <style>
+          //   .img{
+          //     transition:all 1s ease-in-out;
+          //     width:110px;
+          //   }
+          //   .img:hover{
+          //     opacity:0.6;
+              
+          //   }
+          //   </style>
+          //   `,
+          //   position: 'right',
+          // },
         ],
       },
       // 链接
