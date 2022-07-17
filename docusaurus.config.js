@@ -104,9 +104,14 @@ const config = {
           position: 'right',
           to: 'website',
         },
+          // {
+          //   href: 'https://github.com/inannan423',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
           {
             href: 'https://github.com/inannan423',
-            label: 'GitHub',
+            html:`<a href="https://github.com/inannan423" target="_blank"><img style="height:35px;position:relative;top:5px" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/gtihb1.png"/><a/>`,
             position: 'right',
           },
         ],
@@ -120,6 +125,19 @@ const config = {
       footer: {
         style: 'light',
         links: [
+          {
+            items: [
+              {
+                html: `<img style="position:relative;height:60px;left:-10px;top:-15px" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/fter.png"/>
+                <br/>Copyright © ${new Date().getFullYear()} 
+                <br/>
+                <p style="font-family:ubuntu;font-size:0.5rem;font-weight:500">Made with ❤ by Chengzihan. 
+                <br> Powered by Docusaurus.  <br/>
+                MIT LICENSE</p>
+               `
+            }
+          ]
+        },
           {
             title: 'Docs',
             items: [
@@ -187,17 +205,27 @@ const config = {
                 href: 'https://swwtech.github.io/',
               },
               {
-                html:`<a href="https://www.netlify.com/" target="_blank"><img style="height:50px" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/netlify.png"/><a/>`
+                html: `<a href="https://www.netlify.com/" target="_blank"><img style="height:50px" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/netlify.png"/><a/>
+                
+                `
               }
             ],
           },
         ],
-        copyright: `<br/> Copyright © ${new Date().getFullYear()} Made with ❤ by Chengzihan. <br> Powered by Docusaurus.`,
+        // copyright: `<br/> Copyright © ${new Date().getFullYear()} Made with ❤ by Chengzihan. <br> Powered by Docusaurus. | MIT LICENSE`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      gitalk: {
+      clientID: 'c9e3cf89b07d5389c032',
+      clientSecret: 'c0ee263acb104e68b1055b2f301af8597b838755',
+      repo: 'inannan423.github.io',
+      owner: 'inannan423',
+      admin: ['inannan423'],
+      distractionFreeMode: false,
+    },
     }),
 };
 

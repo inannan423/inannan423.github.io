@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- 引入React外链库 -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+    <!-- 渲染的React结点将在root下渲染出 -->
+    <script type="text/babel">
+        // 渲染函数
+        function MyApp() {
+            return <h1>Hello, world!</h1>;
+            // 返回h1嵌套的字符
+        }
+
+        const container = document.getElementById('root');
+        // 获取渲染容器
+        const root = ReactDOM.createRoot(container);
+        // 创建React虚拟Dom
+        root.render(<MyApp />);
+        // 渲染
+    </script>
+</body>
+
+</html>

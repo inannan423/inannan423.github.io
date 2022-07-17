@@ -53,6 +53,7 @@ a {
 a:hover {
   text-decoration: none !important;
 }
+
 /* .thin-scrollbar{
   width: 3px;
   height: 3px;
@@ -141,6 +142,8 @@ html[data-theme='dark'] h6 {
 }
 
 .markdown>h3 {
+  border-left: #338bff 4px solid;
+  padding-left: 1rem;
   font-size: 1.5em;
 }
 
@@ -189,4 +192,18 @@ article>li {
   background-color: #2e80ec2e !important;
   box-shadow: 6px 6px 2px 1px rgba(0, 170, 255, 0.225) !important;
   border: 2px solid #2e80ec !important;
+}
+
+code {
+  background-color: #2e80ec62;
+  border: 0.1rem solid rgba(174, 191, 255, 0.794);
+  border-radius: var(--ifm-code-border-radius);
+  font-family: var(--ifm-font-family-monospace);
+  font-size: var(--ifm-code-font-size);
+  padding: var(--ifm-code-padding-vertical) var(--ifm-code-padding-horizontal);
+  vertical-align: middle;
+}
+
+strong {
+  color: var(--ifm-color-primary);
 }

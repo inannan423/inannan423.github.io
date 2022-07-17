@@ -211,8 +211,8 @@ export const websiteData: WebsiteCategory[] = [
       {
         name: 'Vite',
         desc: '下一代的前端工具链，为开发提供极速响应',
-        logo: 'https://cn.vitejs.dev/logo.svg',
-        href: 'https://cn.vitejs.dev',
+        logo: 'https://www.vitejs.net/logo.svg',
+        href: 'https://www.vitejs.net/',
         tags: ['前端', 'Vue', '框架'],
       },
       {
