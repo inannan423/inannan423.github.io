@@ -142,7 +142,7 @@ const config = {
                 html: `<img style="position:relative;height:60px;left:-10px;top:-15px" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/fter.png"/>
                 <br/>Copyright © ${new Date().getFullYear()} 
                 <br/>
-                <p style="font-family:ubuntu;font-size:0.5rem;font-weight:500">Made with ❤ by Chengzihan. 
+                <p style="opacity:0.6;font-family:ubuntu;font-size:0.5rem;font-weight:500">Made with ❤ by Chengzihan. 
                 <br> Powered by Docusaurus.  <br/>
                 MIT LICENSE</p>
                `
@@ -177,11 +177,6 @@ const config = {
                 label: 'Vue.js',
                 href: 'https://react.docschina.org/',
               },
-            ],
-          },
-          {
-            title: 'Coding',
-            items: [
               {
                 label: 'Python',
                 href: 'https://www.w3school.com.cn/python/index.asp',
@@ -190,9 +185,18 @@ const config = {
                 label: 'Java',
                 href: 'https://zq99299.github.io/java-tutorial/',
               },
+            ],
+          },
+          {
+            title: 'Projects',
+            items: [
               {
-                label: '微信小程序',
-                href: 'https://developers.weixin.qq.com/miniprogram/dev/framework/',
+                label: 'csspano',
+                href: 'https://csspano.netlify.app',
+              },
+              {
+                label: 'nanMiniProgram',
+                href: 'https://github.com/inannan423/orange-nan-mini_program',
               },
             ],
           },
