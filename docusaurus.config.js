@@ -150,8 +150,12 @@ const config = {
           ]
         },
           {
-            title: 'Docs',
+            title: 'Website',
             items: [
+            {
+                label: 'Home',
+                to: '/',
+              },
               {
                 label: 'Front-end',
                 to: '/docs/front',
