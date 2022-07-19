@@ -26,7 +26,8 @@ function HomepageHeader() {
           <div className={clsx('leftside', styles.leftside)}>
             <span className={clsx('welword', styles.welword)}>Flying code jet.</span><br />
             <span className={clsx('welword1', styles.welword1)}>Hello, welcome to coding jet, this is where I record my learning and I aspire to be a front-end magician.</span>
-            <div className={clsx('circle', styles.circle)}>
+            <a href='https://github.com/inannan423/inannan423.github.io' target={'_blank'}><img className={clsx('starme', styles.starme)} src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/star.png" />
+            </a><div className={clsx('circle', styles.circle)}>
             </div>
           </div>
           <div className={clsx('sidepic', styles.sidepic)}>

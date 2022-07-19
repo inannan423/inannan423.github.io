@@ -213,7 +213,13 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://www.nodejs.red/',
         tags: ['Nodejs', '笔记', '教程'],
       },
-
+      {
+        name: 'Bounce.js',
+        desc: '可视化css代码生成器',
+        logo: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/sqr.png',
+        href: 'http://www.htmleaf.com/Demo/201502231412.html',
+        tags: ['css'],
+      },
       {
         name: 'Vite',
         desc: '下一代的前端工具链，为开发提供极速响应',
