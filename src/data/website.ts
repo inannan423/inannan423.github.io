@@ -159,7 +159,13 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://coding.net/',
         tags: ['代码托管'],
       },
-
+      {
+        name: '微信代码托管（git）',
+        desc: '微信生态的代码托管',
+        logo: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20220719084304.png',
+        href: 'https://git.weixin.qq.com/',
+        tags: ['代码托管'],
+      },
     ],
   },
   {

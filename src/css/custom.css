@@ -21,6 +21,7 @@
   --ifm-color-primary-light: hsl(214deg, 100%, 75%);
   --ifm-color-primary-lighter: #c6ebfc;
   --ifm-color-primary-lightest: #f2fbff;
+  /* --ifm-color-white:repeating-linear-gradient(-35deg,var(--ifm-color-primary-lighter),var(--ifm-color-primary-lighter) 20px,var(--ifm-color-primary-lightest) 10px,var(--ifm-color-primary-lightest) 40px); */
   /* --ifm-navbar-background-color:rgba(255, 255, 255, 0.955); */
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
@@ -205,5 +206,20 @@ code {
 }
 
 strong {
-  color: var(--ifm-color-primary);
+  color: rgba(76, 151, 237, 0.848);
+}
+
+/* .announcementBar_node_modules-@docusaurus-theme-classic-lib-theme-AnnouncementBar-styles-module{
+  background: repeating-linear-gradient(-35deg,var(--ifm-color-primary-lighter),var(--ifm-color-primary-lighter) 20px,var(--ifm-color-primary-lightest) 10px,var(--ifm-color-primary-lightest) 40px);
+} */
+
+div[class^='announcementBar_'] {
+  background: repeating-linear-gradient(
+    -35deg,
+    var(--ifm-color-primary-lighter),
+    var(--ifm-color-primary-lighter) 20px,
+    var(--ifm-color-primary-lightest) 10px,
+    var(--ifm-color-primary-lightest) 40px
+  ) !important;
+  font-weight: 700;
 }

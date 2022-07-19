@@ -129,10 +129,10 @@ const config = {
       },
       // 链接
       metadata: [{ name: 'msvalidate.01', content: '7BFDC4075777E569E05945A5D040DA05' }],
-    //   announcementBar: {
-    //   id: 'announcementBar-3',
-    //   content: 'In code we trust.',
-    // },
+      announcementBar: {
+      id: 'announcementBar-3',
+      content: 'In code we trust.',
+    },
       footer: {
         style: 'light',
         links: [
@@ -164,11 +164,16 @@ const config = {
                 label: 'Study',
                 to: '/docs/study',
               },
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
             ],
           },
           {
             title: 'Tech Links',
             items: [
+            
               {
                 label: 'Docusaurus',
                 href: 'https://docusaurus.io/zh-CN/',
@@ -207,12 +212,9 @@ const config = {
           {
             title: 'More',
             items: [
+
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'Source Code',
+                label: '源代码',
                 href: 'https://github.com/inannan423/inannan423.github.io',
               },
               {

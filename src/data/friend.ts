@@ -20,6 +20,12 @@ export const Friends: Friend[] = [
     website: 'https://jetzihan.netlify.app',
     avatar: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/jetold.png',
   },
+  {
+    title: 'NikoのBlog',
+    description: 'Niko只会实用的技术',
+    website: 'https://weixiabing.github.io/',
+    avatar: 'https://weixiabing.github.io/assets/images/13848491-99eb759a4c6f146b59d09849bb181c7e.jpg',
+  },
 ]
 
 export function sortFriend() {
