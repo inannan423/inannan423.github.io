@@ -223,3 +223,7 @@ div[class^='announcementBar_'] {
   ) !important;
   font-weight: 700;
 }
+
+h1{
+  color: var(--ifm-color-primary) !important;
+}
