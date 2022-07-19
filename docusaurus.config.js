@@ -129,10 +129,10 @@ const config = {
       },
       // 链接
       metadata: [{ name: 'msvalidate.01', content: '7BFDC4075777E569E05945A5D040DA05' }],
-      announcementBar: {
-      id: 'announcementBar-3',
-      content: 'In code we trust.',
-    },
+    //   announcementBar: {
+    //   id: 'announcementBar-3',
+    //   content: 'In code we trust.',
+    // },
       footer: {
         style: 'light',
         links: [
