@@ -235,6 +235,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['前端', 'Vue', '框架'],
       },
       {
+        name: 'GIN-VUE-ADMIN',
+        desc: '一款基于GIN+VUE+ElementUI开发的全栈基础开发平台',
+        logo: 'https://www.gin-vue-admin.com/favicon.ico',
+        href: 'https://www.gin-vue-admin.com/',
+        tags: ['前端', 'Vue', 'admin'],
+      },
+      {
         name: 'Nuxt.js',
         desc: '使用 NuxtJS 充满信心地构建您的下一个 Vue.js 应用程序。 一个 开源 框架，让 Web 开发变得简单而强大。',
         logo: 'https://nuxtjs.org/_nuxt/icons/icon_64x64.a3b4ce.png',

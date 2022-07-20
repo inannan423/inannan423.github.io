@@ -42,7 +42,9 @@
 .hero {
   align-items: center;
   /* background-color: rgb(156, 212, 246); */
-  background: repeating-linear-gradient(-35deg,var(--ifm-color-primary-lighter),var(--ifm-color-primary-lighter) 20px,var(--ifm-color-primary-lightest) 10px,var(--ifm-color-primary-lightest) 40px);
+  background: repeating-linear-gradient(-35deg,
+  var(--link-hero-color-bk),var(--link-hero-color-bk) 20px,
+  var(--link-hero-color) 10px,var(--link-hero-color) 40px);
   color: var(--ifm-font-color-base-inverse);
   display: flex;
   padding: 2rem 2rem;

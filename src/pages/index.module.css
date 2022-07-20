@@ -141,14 +141,15 @@
 }
 .circle{
   left: -13rem;
-  top: 38.44px;
-  width: 41rem;
-  height: 41rem;
+  top: 26.44px;
+  width: 50rem;
+  height: 50rem;
   background: linear-gradient(90deg, rgba(150, 255, 245, 1) 0%, rgba(0, 72, 252, 1) 100%);
   border-radius: 50%;
   opacity: 0.3;
   position: fixed;
   animation: heartbeat 3s infinite;
+  filter: blur(50px);
   /* z-index: -1; */
 }
 @keyframes heartbeat {
