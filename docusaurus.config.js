@@ -84,6 +84,10 @@ const config = {
         
         items: [
           {
+            type: 'search',
+            position: 'right'
+          },
+          {
           label: 'Notes',
           position: 'right',
           items: [
@@ -94,6 +98,10 @@ const config = {
             {
               label: 'Study',
               to: 'docs/study/',
+            },
+            {
+              label: 'BackEnd',
+              to: 'docs/back/',
             },
           ],
         },
@@ -106,8 +114,10 @@ const config = {
         },
           {
             href: 'https://github.com/inannan423',
-            label: 'GitHub',
+            // label: 'GitHub',
             position: 'right',
+            className: 'header-github-link',
+                      'aria-label': 'Github repository',
           },
           // {
           //   href: 'https://github.com/inannan423',

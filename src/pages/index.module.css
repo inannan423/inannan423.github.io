@@ -144,12 +144,12 @@
   top: 26.44px;
   width: 50rem;
   height: 50rem;
-  background: linear-gradient(90deg, rgba(150, 255, 245, 1) 0%, rgba(0, 72, 252, 1) 100%);
+  background: linear-gradient(90deg, rgba(150, 255, 244, 0.813) 0%, rgba(0, 71, 252, 0.806) 100%);
   border-radius: 50%;
   opacity: 0.3;
   position: fixed;
   animation: heartbeat 3s infinite;
-  filter: blur(50px);
+  filter: blur(80px);
   /* z-index: -1; */
 }
 @keyframes heartbeat {

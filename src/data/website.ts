@@ -242,6 +242,20 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['前端', 'Vue', 'admin'],
       },
       {
+        name: 'Greensock',
+        desc: '超强大h5动画库',
+        logo: 'https://greensock.com/favicon.ico',
+        href: 'https://greensock.com/docs/',
+        tags: ['前端', 'css', '动画'],
+      },
+      {
+        name: 'Threejs',
+        desc: '强大的3D-Js库',
+        logo: 'https://threejs.org/favicon.ico',
+        href: 'https://threejs.org/',
+        tags: ['前端', 'JavaScript', '3D'],
+      },
+      {
         name: 'Nuxt.js',
         desc: '使用 NuxtJS 充满信心地构建您的下一个 Vue.js 应用程序。 一个 开源 框架，让 Web 开发变得简单而强大。',
         logo: 'https://nuxtjs.org/_nuxt/icons/icon_64x64.a3b4ce.png',

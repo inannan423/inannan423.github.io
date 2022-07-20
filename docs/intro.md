@@ -1,47 +1,52 @@
 ---
 sidebar_position: 1
+title: 🎉Hello🎈
 ---
 
-# 部署介绍
 
-Let's discover **Docusaurus in less than 5 minutes**.
+<img style={{boxShadow:'none',width:'80%'}} src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/info.png"/>
 
-## Getting Started
+## Hi，this is Jetzihan  
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
+```js
+function LifeScript(){
+  while (alive){
+    eat();
+    sleep();
+    code();
+    study();
+    haveFun();
+    repeat();
+  }
+}
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+> 我在这里存放了我前端学习和日常学习的笔记，本文档将不断更新。
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+### 目前**已有的前端笔记内容**  
 
-## Start your site
+- Github协同和代码托管
+- Netlify网页托管
+- Threejs全景图网站部署
+- 微信小程序简明教程
+- 借助Docu恐龙🦖搭建个人博客（**待完善**）
+- React初步学习（**待完善**）
+- css技巧（**待完善**）
+- 其他前端技巧
 
-Run the development server:
+### 目前已有的**学习内容**  
 
-```bash
-cd my-website
-npm run start
-```
+- 数字媒体技术基础
+- 计算机网路
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+## Contact Me
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at <http://localhost:3000/>.
+:::info Mail
+czhorange@foxmail.com
+:::
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+## Support Me
+
+:::note StarMe
+Star Me On [Github](https://github.com/inannan423/inannan423.github.io).
+:::

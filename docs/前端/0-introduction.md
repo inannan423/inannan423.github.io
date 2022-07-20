@@ -3,10 +3,12 @@ id: introduction
 title: 前端引入
 slug: /front
 keywords:
-  - 前端
-  - Vue
-  - React
-  - JavaScript
+
+- 前端
+- Vue
+- React
+- JavaScript
+
 ---
 
 <img style={{boxShadow:'none',width:'80%'}} src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/ft1.png"/>
