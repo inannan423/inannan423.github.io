@@ -205,7 +205,7 @@ article>li {
 }
 
 code {
-  background-color: #2e80ec62;
+  background-color: #2e80ec2d;
   border: 0.1rem solid rgba(174, 191, 255, 0.794);
   border-radius: var(--ifm-code-border-radius);
   font-family: var(--ifm-font-family-monospace);

@@ -361,6 +361,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['编程'],
       },
       {
+        name: 'Java全栈汇总',
+        desc: 'Java学习文档',
+        logo: 'https://pdai.tech/favicon.ico',
+        href: 'https://pdai.tech/',
+        tags: ['编程'],
+      },
+      {
         name: 'LeetCode',
         desc: '算法刷题必备站',
         logo: 'https://leetcode.cn/favicon.ico',
