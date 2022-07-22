@@ -31,6 +31,7 @@
   /* 导航栏高度 */
   --ifm-navbar-height: 4.25rem;
   --ifm-navbar-search-input-background-color:rgba(174, 171, 171, 0.198);
+  --search-local-modal-width-sm: 200px;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -53,6 +54,7 @@
 } 
 .navbar__title {
   opacity: 0;
+  display: none;
 }
 
 a {
@@ -97,6 +99,14 @@ a:hover {
   /* 修复交汇时出现的白块 */
 }
 
+.thin-scrollbar {
+    scrollbar-width: thin;
+}
+
+.thin-scrollbar ::-webkit-scrollbar{
+    width: 3px;
+  height: 3px;
+}
 .theme-doc-sidebar-item-link .theme-doc-sidebar-item-link-level-2 .menu__list-item {
   transition: all 1s ease-in-out;
 }

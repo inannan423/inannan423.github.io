@@ -70,18 +70,21 @@ const config = {
         // language: ["en", "zh"],
         // ```
       },
+      
     ],
+    
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+
       navbar: {
         title: 'Jetzihan',
         logo: {
           alt: 'Jetzihan',
           src: 'img/logo.png',
         },
-        
+
         items: [
           {
             type: 'search',
@@ -89,7 +92,7 @@ const config = {
           },
           {
           label: 'Notes',
-          position: 'right',
+          position: 'left',
           items: [
             {
               label: 'FrontEnd',
@@ -105,11 +108,11 @@ const config = {
             },
           ],
         },
-          { to: '/blog', label: 'Blog', position: 'right' },
+          { to: '/blog', label: 'Blog', position: 'left' },
           // { to: 'archive', label: 'Archive', position: 'right' },
           {
           label: 'Links',
-          position: 'right',
+          position: 'left',
           to: 'website',
         },
           {
@@ -246,9 +249,14 @@ const config = {
         // copyright: `<br/> Copyright © ${new Date().getFullYear()} Made with ❤ by Chengzihan. <br> Powered by Docusaurus. | MIT LICENSE`,
       },
       prism: {
-        theme: lightCodeTheme,
+        theme: require('prism-react-renderer/themes/dracula'),
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['java'],
+        
       },
+      plugins: [
+         'plugin-image-zoom'
+       ],
       gitalk: {
       clientID: 'c9e3cf89b07d5389c032',
       clientSecret: 'c0ee263acb104e68b1055b2f301af8597b838755',
@@ -256,6 +264,19 @@ const config = {
       owner: 'inannan423',
       admin: ['inannan423'],
       distractionFreeMode: false,
+      },
+      imageZoom: {
+      // CSS selector to apply the plugin to, defaults to '.markdown img'
+      selector: '.markdown img',
+      // Optional medium-zoom options
+      // see: https://www.npmjs.com/package/medium-zoom#options
+      options: {
+        margin: 24,
+        background: '#BADA55',
+        scrollOffset: 0,
+        container: '#zoom-container',
+        template: '#zoom-template',
+      },
     },
     }),
 };

@@ -309,7 +309,9 @@
     transform: none;
   } */
 }
- 
+.ministar{
+  top: -100px;
+}
 @keyframes bounceInRight {
   0% {
     opacity: 0;

@@ -4,13 +4,19 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
+import { ReactNebula } from "@flodlc/nebula";
 import styles from './index.module.css';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      {/* // With custom config */}
+        {/* <ReactNebula className={clsx('ministar', styles.ministar)} config={{
+               starsCount: 250,
+               starsRotationSpeed: 3,
+               nebulasIntensity: 8,
+        }}/> */}
       <div className={clsx('mainpage', styles.mainpage)} >
         {/* <h1 className="hero__title">{siteConfig.title}</h1> */}
         {/* <p className="hero__subtitle">{siteConfig.tagline}</p> */}
@@ -21,6 +27,7 @@ function HomepageHeader() {
             Docusaurus Tutorial - 5min ⏱️
           </Link>
         </div> */}
+
         <div className={clsx('stars', styles.stars)}></div>
         <div className={clsx('stars2', styles.stars2)}></div>
         <div className={clsx('stars3', styles.stars3)}></div>
@@ -50,7 +57,7 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        {/* <HomepageFeatures /> */}
+        <HomepageFeatures />
       </main>
     </Layout>
   );
