@@ -21,12 +21,14 @@ function HomepageHeader() {
             Docusaurus Tutorial - 5min ⏱️
           </Link>
         </div> */}
-
+        <div className={clsx('stars', styles.stars)}></div>
+        <div className={clsx('stars2', styles.stars2)}></div>
+        <div className={clsx('stars3', styles.stars3)}></div>
         <div className={clsx('bigmax', styles.bigmax)}>
           <div className={clsx('leftside', styles.leftside)}>
             <span className={clsx('welword', styles.welword)}>Flying code jet.</span><br />
             <span className={clsx('welword1', styles.welword1)}>Hello, welcome to coding jet, this is where I record my learning and I aspire to be a front-end magician.</span>
-            <a href='https://github.com/inannan423/inannan423.github.io' target={'_blank'}><img className={clsx('starme', styles.starme)} src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/star.png" />
+            <a href='https://github.com/inannan423/inannan423.github.io' target={'_blank'}><img className={clsx('starme', styles.starme)} src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/starmeme.png" />
             </a><div className={clsx('circle', styles.circle)}>
             </div>
           </div>

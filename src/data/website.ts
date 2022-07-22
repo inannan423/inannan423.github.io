@@ -214,6 +214,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['Nodejs', '笔记', '教程'],
       },
       {
+        name: 'Node.js中文文档',
+        desc: 'Nodejs中文文档',
+        logo: 'https://nodejsred.oss-cn-shanghai.aliyuncs.com/nodejs_roadmap-logo.jpeg?x-oss-process=style/may',
+        href: 'https://www.nodeapp.cn/',
+        tags: ['Nodejs', '笔记', '教程'],
+      },
+      {
         name: 'Bounce.js',
         desc: '可视化css代码生成器',
         logo: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/sqr.png',
@@ -358,6 +365,13 @@ export const websiteData: WebsiteCategory[] = [
         desc: 'Java学习文档',
         logo: 'https://zq99299.github.io/java-tutorial/favicon.ico',
         href: 'https://zq99299.github.io/java-tutorial/',
+        tags: ['编程'],
+      },
+      {
+        name: 'Golang',
+        desc: 'Golang学习文档',
+        logo: 'https://tour.go-zh.org/favicon.ico',
+        href: 'https://tour.go-zh.org/welcome/1',
         tags: ['编程'],
       },
       {

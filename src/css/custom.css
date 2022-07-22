@@ -270,3 +270,8 @@ z-index:10;
 .blockquote{
   border-left: var(--ifm-blockquote-border-left-width) solid var(--ifm-color-primary) !important;
 }
+
+/* .dropdown--hoverable:hover .dropdown__menu, .dropdown--show .dropdown__menu{
+  background-color: var(--ifm-navbar-background-color);
+  backdrop-filter: blur(100px);
+} */
