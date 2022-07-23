@@ -406,8 +406,15 @@ export const websiteData: WebsiteCategory[] = [
     ]
   },
   {
-    name: '字体图标',
+    name: '设计',
     websites: [
+      {
+        name: 'DECO',
+        desc: '设计稿转代码插件',
+        logo: 'https://img12.360buyimg.com/neos/jfs/t1/167166/1/20262/1707910/60877e5fE6cd06194/2b7826beced87347.jpg',
+        href: 'https://deco-preview.jd.com/?from=taro-docs',
+        tags: ['图标'],
+      },
       {
         name: 'iconify',
         desc: '数千个图标，一个统一的框架。',

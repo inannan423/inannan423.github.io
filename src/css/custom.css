@@ -5,6 +5,7 @@
  */
 
 /* You can override the default Infima variables here. */
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@700&family=Josefin+Sans:wght@200;400&family=Lily+Script+One&family=Noto+Sans+SC:wght@400;500&family=Pacifico&display=swap');
 :root {
   /*  
   --ifm-color-primary: #2e8555;
@@ -32,6 +33,7 @@
   --ifm-navbar-height: 4.25rem;
   --ifm-navbar-search-input-background-color:rgba(174, 171, 171, 0.198);
   --search-local-modal-width-sm: 200px;
+  /* font-family: 'Noto Sans SC', sans-serif; */
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -49,6 +51,9 @@
   --link-hero-color:rgb(102, 152, 179);
     --link-hero-color-bk:#51869d;
 }
+/* *{
+  font-family: 'Noto Sans SC', sans-serif;
+} */
 .navbar{
   backdrop-filter: blur(60px);
 } 
@@ -285,3 +290,11 @@ z-index:10;
   background-color: var(--ifm-navbar-background-color);
   backdrop-filter: blur(100px);
 } */
+
+.navbar-sidebar{
+  z-index: 1000 !important;
+}
+/* 代码高亮行 */
+.theme-code-block-highlighted-line{
+  background-color: #2e80ec3d !important;
+}
