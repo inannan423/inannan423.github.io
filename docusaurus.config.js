@@ -187,10 +187,11 @@ const config = {
             title: 'Tech Links',
             items: [
             
-              {
-                label: 'Docusaurus',
-                href: 'https://docusaurus.io/zh-CN/',
-              },
+              // {
+              //   label: 'Docusaurus',
+              //   href: 'https://docusaurus.io/zh-CN/',
+              // },
+
               {
                 label: 'React',
                 href: 'https://react.docschina.org/',
@@ -206,6 +207,11 @@ const config = {
               {
                 label: 'Java',
                 href: 'https://zq99299.github.io/java-tutorial/',
+              },
+              {
+                html: `<a href="https://docusaurus.io/zh-CN/" target="_blank"><img style="height:50px;margin-top:0.5rem" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/buildwith.png"/><a/>
+                
+                `
               },
             ],
           },
@@ -239,7 +245,7 @@ const config = {
                 href: 'https://swwtech.github.io/',
               },
               {
-                html: `<a href="https://www.netlify.com/" target="_blank"><img style="height:50px" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/netlify.png"/><a/>
+                html: `<a href="https://www.netlify.com/" target="_blank"><img style="height:50px;margin-top:0.5rem" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/netlify.png"/><a/>
                 
                 `
               }

@@ -27,6 +27,7 @@
     "@fortawesome/react-fontawesome": "^0.1.11",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.2.0",
+    "color": "^4.2.3",
     "dayjs": "^1.11.3",
     "fortawesome": "0.0.1-security",
     "gitalk": "^1.7.2",
