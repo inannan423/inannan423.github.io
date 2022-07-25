@@ -109,6 +109,7 @@ const config = {
           ],
         },
           { to: '/blog', label: 'Blog', position: 'left' },
+          // { to: 'toys', label: 'Toys', position: 'left' },
           // { to: 'archive', label: 'Archive', position: 'right' },
           {
           label: 'Links',
@@ -260,9 +261,6 @@ const config = {
         additionalLanguages: ['java'],
         
       },
-      plugins: [
-         'plugin-image-zoom'
-       ],
       gitalk: {
       clientID: 'c9e3cf89b07d5389c032',
       clientSecret: 'c0ee263acb104e68b1055b2f301af8597b838755',
