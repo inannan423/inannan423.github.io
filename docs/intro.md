@@ -29,7 +29,7 @@ function LifeScript(){
 - Netlify网页托管
 - Threejs全景图网站部署
 - 微信小程序简明教程
-- 借助Docu恐龙🦖搭建个人博客（**待完善**）
+- 借助Docu恐龙🦖搭建个人博客  
 - React初步学习（**待完善**）
 - css技巧（**待完善**）
 - 其他前端技巧
