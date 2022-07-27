@@ -117,7 +117,7 @@ const config = {
           ],
         },
           { to: '/blog', label: 'Blog', position: 'left' },
-          { to: '/Projects', label: 'Projects', position: 'left' },
+          { to: '/projects',activeBasePath: 'pages', label: 'Projects', position: 'left' },
           // { to: 'toys', label: 'Toys', position: 'left' },
           // { to: 'archive', label: 'Archive', position: 'right' },
           {

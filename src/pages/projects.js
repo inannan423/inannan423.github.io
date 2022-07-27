@@ -6,10 +6,6 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import { ReactNebula } from "@flodlc/nebula";
 import styles from './index.module.css';
-import '../../node_modules/wowjs/css/libs/animate.css'
-import ReactWOW from 'react-wow'
-// ↑ 这里需要找到相对路径 ， 直接import 'animate.css'没有效果
-import { WOW } from 'wowjs'
 
 function HomepageHeader() {
     const { siteConfig } = useDocusaurusContext();
@@ -59,16 +55,6 @@ function HomepageHeader() {
 
 export default function Home() {
     const { siteConfig } = useDocusaurusContext();
-    var wow = new WOW(
-        {
-            boxClass: 'wow',
-            animateClass: 'animated',
-            offset: 0,
-            mobile: true,
-            live: true,
-        }
-    );
-    wow.init();
     return (
         <Layout
             title={`${siteConfig.title}`}
