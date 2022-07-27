@@ -2,7 +2,80 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
+ @import url('http://cdn.repository.webfont.com/webfonts/nomal/145841/45817/62e101a5f629d801648b3899.css');
+.hero1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .TXT{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  font-size: 5rem;
+  background: -webkit-linear-gradient(315deg,#d799fb 25%,#647eff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ }
+ .TXT1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  color: rgb(107, 130, 230) !important;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family:'ChannelSlanted2';
+ }
+.TXT2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  color: rgb(90, 103, 145) !important;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 2rem;
+ }
+ .TXT3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  color: rgb(90, 103, 145) !important;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 2rem;
+ }
+  .TXT4{
+    border-radius: 15px;
+    background-color: #a178f2;
+    padding: 10px;
+    color: white;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+ }
+   .TXT4:hover{
+    background-color: #7878f2;
+ }
+ .btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+.firstpic{
+  width: 60rem;
+  box-shadow: -2px 12px 30px rgba(79, 107, 104, 0.11);
+  border-radius: 15px;
+  margin: 35px;
+  display: block;
+  word-wrap: break-word;
+word-break: break-all;
+white-space: normal;
 
+}
 .heroBanner {
   padding: 4rem 0;
   text-align: center;

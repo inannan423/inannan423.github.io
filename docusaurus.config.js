@@ -62,18 +62,26 @@ const config = {
       //搜索插件
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
-        // ... Your options.
-        // `hashed` is recommended as long-term-cache of index file is possible.
         hashed: true,
-        // For Docs using Chinese, The `language` is recommended to set to:
-        // ```
-        // language: ["en", "zh"],
-        // ```
       },
-      
     ],
     
   ],
+  // plugins: [
+  //   [
+  //     "@docusaurus/plugin-content-docs",
+  //     {
+  //       id: "back",
+  //       path: "back",
+  //       routeBasePath: "back",
+  //       sidebarPath: require.resolve("./sidebars.js"),
+  //       editUrl: "https://git.7wate.com/zhouzhongping/wiki/src/branch/master",
+  //       showLastUpdateAuthor: true,
+  //       showLastUpdateTime: true,
+  //       breadcrumbs: false,
+  //     },
+  //   ]
+  // ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -109,6 +117,7 @@ const config = {
           ],
         },
           { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/Projects', label: 'Projects', position: 'left' },
           // { to: 'toys', label: 'Toys', position: 'left' },
           // { to: 'archive', label: 'Archive', position: 'right' },
           {
