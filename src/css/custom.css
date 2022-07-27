@@ -25,14 +25,14 @@
   --ifm-color-primary-light: hsl(214deg, 100%, 75%);
   --ifm-color-primary-lighter: #c6ebfc;
   --ifm-color-primary-lightest: #f2fbff; */
-    --ifm-color-primary: #338bff;
+  --ifm-color-primary: #338bff;
   --ifm-color-primary-dark: #147aff;
   --ifm-color-primary-darker: #0571ff;
   --ifm-color-primary-darkest: #005cd6;
   --ifm-color-primary-light: #529cff;
   --ifm-color-primary-lighter: #61a5ff;
   --ifm-color-primary-lightest: #8fbfff;
-  --ifm-navbar-background-color:rgba(255, 255, 255, 0.335);
+  --ifm-navbar-background-color:rgba(255, 255, 255, 0.198);
   /* --ifm-color-white:repeating-linear-gradient(-35deg,var(--ifm-color-primary-lighter),var(--ifm-color-primary-lighter) 20px,var(--ifm-color-primary-lightest) 10px,var(--ifm-color-primary-lightest) 40px); */
   /* --ifm-navbar-background-color:rgba(255, 255, 255, 0.955); */
   --ifm-code-font-size: 95%;

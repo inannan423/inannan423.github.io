@@ -6,37 +6,69 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import { ReactNebula } from "@flodlc/nebula";
 import styles from './index.module.css';
+import '../../node_modules/wowjs/css/libs/animate.css'
+import ReactWOW from 'react-wow'
+// ↑ 这里需要找到相对路径 ， 直接import 'animate.css'没有效果
+import { WOW } from 'wowjs'
 
 function HomepageHeader() {
     const { siteConfig } = useDocusaurusContext();
     return (
         <header className={clsx('heroMax', styles.heroMax)}>
             <div className={clsx('TXT', styles.TXT)}>
-                <h1>svg board
+                <h1 class="wow fadeInUp">svg board
                 </h1>
             </div>
             <div className={clsx('TXT1', styles.TXT1)}>
                 Draw something with it !
             </div>
             <div className={clsx('TXT2', styles.TXT2)}>
-                Build with Vue.js. <a href='https://github.com/inannan423/Svg_Board' target={'_blank'}>Github Repository</a>
+                2022.7.27 Build with Vue.js. <a href='https://github.com/inannan423/Svg_Board' target={'_blank'}>Github Repository</a>
             </div>
             <div className={clsx('TXT3', styles.TXT3)}>
-                <div className={clsx('TXT4', styles.TXT4)}>
+                <a target={'_blank'} href="https://inannan423.github.io/Svg_Board/#/"><div className={clsx('TXT4', styles.TXT4)}>
                     Let's Go!
-                </div>
+                </div></a>
             </div>
 
             <div className={clsx('hero1', styles.hero1)}>
                 <img className={clsx('firstpic', styles.firstpic)} src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20220727163907.png" alt="bigmax" />
             </div>
-
+            <div className={clsx('TXT5', styles.TXT5)}>
+                点击相关图形在画布上绘制几何体.
+            </div>
+            <div className={clsx('hero1', styles.hero1)}>
+                <img className={clsx('firstpic', styles.firstpic)} src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20220727202653.png" alt="bigmax" />
+            </div>
+            <div className={clsx('TXT5', styles.TXT5)}>
+                在右边菜单中设置相关参数。
+            </div>
+            <div className={clsx('hero1', styles.hero1)}>
+                <img className={clsx('firstpic', styles.firstpic)} src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20220727202653.png" alt="bigmax" />
+            </div>
+            <div className={clsx('TXT5', styles.TXT5)}>
+                创造酷炫的渐变颜色。
+            </div>
+            <div className={clsx('TXT6', styles.TXT6)}>
+                Do you like it ? <br />
+                Star me on GitHub!
+            </div>
         </header>
     );
 }
 
 export default function Home() {
     const { siteConfig } = useDocusaurusContext();
+    var wow = new WOW(
+        {
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: 0,
+            mobile: true,
+            live: true,
+        }
+    );
+    wow.init();
     return (
         <Layout
             title={`${siteConfig.title}`}
