@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjetzihan=self.webpackChunkjetzihan||[]).push([[4592],{4612:a=>{a.exports=JSON.parse('{"label":"MySql","permalink":"/back/tags/my-sql","allTagsPath":"/back/tags","count":1,"items":[{"id":"MySql/\u73af\u5883\u914d\u7f6e","title":"MySql-\u73af\u5883\u642d\u5efa","description":"","permalink":"/back/MySql/\u73af\u5883\u914d\u7f6e"}]}')}}]);
