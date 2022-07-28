@@ -15,16 +15,16 @@ export const Friends: Friend[] = [
     avatar: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/bljx.png',
   },
   {
-    title: '我的旧站',
-    description: '基于Vuepress的旧站，已经迁移到这里了。',
-    website: 'https://jetzihan.netlify.app',
-    avatar: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/jetold.png',
-  },
-  {
     title: 'NikoのBlog',
     description: 'Niko只会实用的技术',
     website: 'https://weixiabing.github.io/',
     avatar: 'https://weixiabing.github.io/assets/images/13848491-99eb759a4c6f146b59d09849bb181c7e.jpg',
+  },
+  {
+    title: '愧怍',
+    description: '愧怍的小站。',
+    avatar: 'https://kuizuo.cn/img/logo.webp',
+    website: 'https://kuizuo.cn/',
   },
 ]
 
