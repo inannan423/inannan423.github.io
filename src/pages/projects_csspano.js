@@ -14,39 +14,39 @@ function HomepageHeader() {
             <div className={clsx('circlePro', styles.circlePro)}>
 
             </div>
-            <div className={clsx('TXT', styles.TXT)}>
-                <h1 class="wow fadeInUp">svg board
+            <div className={clsx('csspano', styles.csspano)}>
+                <h1 >css panorama
                 </h1>
             </div>
             <div className={clsx('TXT1', styles.TXT1)}>
-                Draw something with it !
+                Magical panoramic magic !
             </div>
             <div className={clsx('TXT2', styles.TXT2)}>
-                2022.7.27 Build with Vue.js. <a href='https://github.com/inannan423/Svg_Board' target={'_blank'}>Github Repository</a>
+                2022.7.15 Build with Vue.js and three.js. <a href='https://github.com/inannan423/csspano' target={'_blank'}>Github Repository</a>
             </div>
             <div className={clsx('TXT3', styles.TXT3)}>
-                <a target={'_blank'} href="https://inannan423.github.io/Svg_Board/#/"><div className={clsx('TXT4', styles.TXT4)}>
+                <a target={'_blank'} href="https://csspano.netlify.app/"><div className={clsx('TXT4', styles.TXT4)}>
                     Let's Go!
                 </div></a>
             </div>
 
             <div className={clsx('hero1', styles.hero1)}>
-                <img className={clsx('firstpic', styles.firstpic)} src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20220727163907.png" alt="bigmax" />
+                <img className={clsx('firstpic', styles.firstpic)} src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20220728083938.png" alt="bigmax" />
             </div>
             <div className={clsx('TXT5', styles.TXT5)}>
-                点击相关图形在画布上绘制几何体.
+                鼠标掌舵浏览全景图。
             </div>
             <div className={clsx('hero1', styles.hero1)}>
-                <img className={clsx('firstpic', styles.firstpic)} src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20220727202653.png" alt="bigmax" />
+                <img className={clsx('firstpic', styles.firstpic)} src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20220728084106.png" alt="bigmax" />
             </div>
             <div className={clsx('TXT5', styles.TXT5)}>
-                在右边菜单中设置相关参数。
+                多维场景供你选择。
             </div>
             <div className={clsx('hero1', styles.hero1)}>
-                <img className={clsx('firstpic', styles.firstpic)} src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20220728075656.png" alt="bigmax" />
+                <img className={clsx('firstpic', styles.firstpic)} src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20220728084148.png" alt="bigmax" />
             </div>
             <div className={clsx('TXT5', styles.TXT5)}>
-                创造酷炫的渐变颜色。
+                上传图片实时渲染。
             </div>
             <div className={clsx('TXT6', styles.TXT6)}>
                 Do you like it ? <br />

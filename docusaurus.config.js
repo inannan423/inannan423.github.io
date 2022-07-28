@@ -117,7 +117,20 @@ const config = {
           ],
         },
           { to: '/blog', label: 'Blog', position: 'left' },
-          { to: '/projects',activeBasePath: 'pages', label: 'Projects', position: 'left' },
+          {
+            label: 'Projects',
+            position: 'left',
+            items: [
+            {
+              label: 'SVG-Board',
+              to: '/projects',
+            },
+            {
+              label: 'cssPano',
+              to: '/projects_csspano',
+            }
+          ],
+          },
           // { to: 'toys', label: 'Toys', position: 'left' },
           // { to: 'archive', label: 'Archive', position: 'right' },
           {
@@ -184,6 +197,10 @@ const config = {
                 to: '/docs/front',
               },
               {
+                label: 'Back-end',
+                to: '/docs/back',
+              },
+              {
                 label: 'Study',
                 to: '/docs/study',
               },
@@ -235,6 +252,10 @@ const config = {
               {
                 label: 'nanMiniProgram',
                 href: 'https://github.com/inannan423/orange-nan-mini_program',
+              },
+              {
+                label: 'SVG Board',
+                href: 'https://inannan423.github.io/Svg_Board/#/',
               },
             ],
           },

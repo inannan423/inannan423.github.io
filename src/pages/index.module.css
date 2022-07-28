@@ -1,6 +1,27 @@
  /* Projects页面 */
- @import url('http://cdn.repository.webfont.com/webfonts/nomal/145841/45817/62e101a5f629d801648b3899.css');
+ @import url('http://cdn.repository.webfont.com/webfonts/nomal/145841/28891/62e1df98f629d80588271217.css');
   @import url('http://cdn.repository.webfont.com/webfonts/nomal/145841/47016/62e1323bf629d8058827120d.css');
+  .circlePro{
+  width: 39rem;
+  height: 39rem;
+  position: absolute;
+  top: -5rem;
+  left: -15rem;
+  background-color: rgba(206, 242, 240, 0.164);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 0px solid rgba(255, 255, 255, 0.18);
+  box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+  -webkit-box-shadow: rgba(142, 142, 142, 0.19) 0px 6px 15px 0px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  color: rgba(255, 255, 255, 0.898);
+  z-index: 10;
+   animation: bounceInLeft2 2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s 1 alternate
+    forwards;
+  -webkit-animation: bounceInLeft2 2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s 1
+    alternate forwards; /*Safari and Chrome*/
+}
 .hero1{
   display: flex;
   justify-content: center;
@@ -16,6 +37,23 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align: center;
+ }
+ .csspano{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  font-size: 5rem;
+  background: -webkit-linear-gradient(315deg,#f89c09 25%,#6471ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+    animation: bounceInLeft1 2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s 1 alternate
+    forwards;
+  -webkit-animation: bounceInLeft1 2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s 1
+    alternate forwards; /*Safari and Chrome*/
  }
   .TXT {
     animation: fadeInLeft;
@@ -36,15 +74,16 @@
     opacity: 1;
     transform: translate3d(0px, 0, 0);
   }
-  /* 75% {
-    transform: translate3d(-10px, 0, 0);
-  }
-  90% {
-    transform: translate3d(-5px, 0, 0);
+}
+@keyframes bounceInLeft2 {
+  0% {
+    opacity: 0;
+    transform: translate3d(-3000px,-1000px , 0);
   }
   100% {
-    transform: none;
-  } */
+    opacity: 1;
+    transform: translate3d(0px, 0, 0);
+  }
 }
  .TXT1{
   display: flex;
@@ -54,7 +93,7 @@
   color: rgb(107, 130, 230) !important;
   font-size: 2rem;
   font-weight: 700;
-  font-family:'ChannelSlanted2';
+font-family:'AlbaSuper';
  }
 .TXT2{
   display: flex;
@@ -118,8 +157,8 @@
   align-items: center;
  }
 .firstpic{
-  width: 80rem;
-  box-shadow: -2px 12px 30px rgba(79, 107, 104, 0.11);
+  width: 60rem;
+  box-shadow: -2px 12px 30px rgba(49, 75, 73, 0.38);
   border-radius: 15px;
   margin: 35px;
   display: block;
@@ -130,6 +169,10 @@ white-space: normal;
 }
 
 @media only screen and (max-width: 600px) {
+    .circlePro{
+      display: none;
+    }
+
   .hero1{
   display: flex;
   justify-content: center;

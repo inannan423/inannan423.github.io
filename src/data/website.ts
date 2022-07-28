@@ -416,6 +416,20 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['图标'],
       },
       {
+        name: 'ToolBox',
+        desc: 'css效果可视化编辑器:玻璃、拟物',
+        logo: 'http://santhoshsivan.com/src/tb-logo.svg',
+        href: 'http://santhoshsivan.com/toolbox.html',
+        tags: ['css'],
+      },
+      {
+        name: '有字库',
+        desc: '国内生态的web字体CDN',
+        logo: 'https://cdn.res.webfont.com/wwwroot/www/Images/base/logo.png',
+        href: 'https://www.webfont.com/',
+        tags: ['字体'],
+      },
+      {
         name: 'iconify',
         desc: '数千个图标，一个统一的框架。',
         logo: 'https://icon-sets.iconify.design/favicon.ico',
