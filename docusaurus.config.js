@@ -67,21 +67,21 @@ const config = {
     ],
     
   ],
-  // plugins: [
-  //   [
-  //     "@docusaurus/plugin-content-docs",
-  //     {
-  //       id: "back",
-  //       path: "back",
-  //       routeBasePath: "back",
-  //       sidebarPath: require.resolve("./sidebars.js"),
-  //       editUrl: "https://git.7wate.com/zhouzhongping/wiki/src/branch/master",
-  //       showLastUpdateAuthor: true,
-  //       showLastUpdateTime: true,
-  //       breadcrumbs: false,
-  //     },
-  //   ]
-  // ],
+  plugins: [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "back",
+        path: "back",
+        routeBasePath: "back",
+        sidebarPath: require.resolve("./sidebars.js"),
+        editUrl: "https://git.7wate.com/zhouzhongping/wiki/src/branch/master",
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+        breadcrumbs: false,
+      },
+    ],
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -131,6 +131,16 @@ const config = {
             }
           ],
           },
+          // {
+          //   label: 'Tools',
+          //   position: 'left',
+          //   items: [
+          //   {
+          //     label: '玻璃生成器',
+          //     to: '/glassblur',
+          //   },
+          // ],
+          // },
           // { to: 'toys', label: 'Toys', position: 'left' },
           // { to: 'archive', label: 'Archive', position: 'right' },
           {
@@ -291,14 +301,7 @@ const config = {
         additionalLanguages: ['java'],
         
       },
-      gitalk: {
-      clientID: 'c9e3cf89b07d5389c032',
-      clientSecret: 'c0ee263acb104e68b1055b2f301af8597b838755',
-      repo: 'inannan423.github.io',
-      owner: 'inannan423',
-      admin: ['inannan423'],
-      distractionFreeMode: false,
-      },
+
       imageZoom: {
       // CSS selector to apply the plugin to, defaults to '.markdown img'
       selector: '.markdown img',
