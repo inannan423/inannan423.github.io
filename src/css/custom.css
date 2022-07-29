@@ -6,6 +6,7 @@
 
 /* You can override the default Infima variables here. */
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@700&family=Josefin+Sans:wght@200;400&family=Lily+Script+One&family=Noto+Sans+SC:wght@400;500&family=Pacifico&display=swap');
+
 :root {
   /*  
   --ifm-color-primary: #2e8555;
@@ -15,10 +16,10 @@
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;*/
-  --link-hero-color:#e3f6ff;
-  --link-hero-color-bk:#b0e5fc;
+  --link-hero-color: #e3f6ff;
+  --link-hero-color-bk: #b0e5fc;
   /* --ifm-color-primary: #338bff; */
-  --ifm-color-primary-bk:rgba(51, 139, 255, 0.102);
+  --ifm-color-primary-bk: rgba(51, 139, 255, 0.102);
   /* --ifm-color-primary-dark: #119cc5;
   --ifm-color-primary-darker: #05879d;
   --ifm-color-primary-darkest: #007a87;
@@ -32,14 +33,14 @@
   --ifm-color-primary-light: #529cff;
   --ifm-color-primary-lighter: #61a5ff;
   --ifm-color-primary-lightest: #8fbfff;
-  --ifm-navbar-background-color:rgba(255, 255, 255, 0.198);
+  --ifm-navbar-background-color: rgba(255, 255, 255, 0.198);
   /* --ifm-color-white:repeating-linear-gradient(-35deg,var(--ifm-color-primary-lighter),var(--ifm-color-primary-lighter) 20px,var(--ifm-color-primary-lightest) 10px,var(--ifm-color-primary-lightest) 40px); */
   /* --ifm-navbar-background-color:rgba(255, 255, 255, 0.955); */
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   /* 导航栏高度 */
   --ifm-navbar-height: 4.25rem;
-  --ifm-navbar-search-input-background-color:rgba(174, 171, 171, 0.198);
+  --ifm-navbar-search-input-background-color: rgba(174, 171, 171, 0.198);
   --search-local-modal-width-sm: 200px;
   /* font-family: 'Noto Sans SC', sans-serif; */
 }
@@ -53,24 +54,26 @@
   --ifm-color-primary-light: hsl(214deg, 100%, 75%);
   --ifm-color-primary-lighter: #c6ebfc;
   --ifm-color-primary-lightest: #f2fbff; */
-  --ifm-color-primary: #78d9f7;
-  --ifm-color-primary-dark: #55cff5;
-  --ifm-color-primary-darker: #44caf4;
-  --ifm-color-primary-darkest: #10bcf1;
-  --ifm-color-primary-light: #9be3f9;
-  --ifm-color-primary-lighter: #ace8fa;
-  --ifm-color-primary-lightest: #e0f6fd;
+  --ifm-color-primary: #398cfa;
+  --ifm-color-primary-dark: #1b7bf9;
+  --ifm-color-primary-darker: #0c72f9;
+  --ifm-color-primary-darkest: #055dd2;
+  --ifm-color-primary-light: #579dfb;
+  --ifm-color-primary-lighter: #66a6fb;
+  --ifm-color-primary-lightest: #93c0fc;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --ifm-navbar-background-color:rgba(41, 39, 39, 0.444);
-  --link-hero-color:rgb(102, 152, 179);
-    --link-hero-color-bk:#51869d;
+  --ifm-navbar-background-color: rgba(41, 39, 39, 0.444);
+  --link-hero-color: rgb(102, 152, 179);
+  --link-hero-color-bk: #51869d;
 }
+
 /* *{
   font-family: 'Noto Sans SC', sans-serif;
 } */
-.navbar{
+.navbar {
   backdrop-filter: blur(60px);
-} 
+}
+
 .navbar__title {
   opacity: 0;
   display: none;
@@ -119,13 +122,14 @@ a:hover {
 }
 
 .thin-scrollbar {
-    scrollbar-width: thin;
+  scrollbar-width: thin;
 }
 
-.thin-scrollbar ::-webkit-scrollbar{
-    width: 3px;
+.thin-scrollbar ::-webkit-scrollbar {
+  width: 3px;
   height: 3px;
 }
+
 .theme-doc-sidebar-item-link .theme-doc-sidebar-item-link-level-2 .menu__list-item {
   transition: all 1s ease-in-out;
 }
@@ -252,32 +256,30 @@ strong {
 } */
 
 div[class^='announcementBar_'] {
-  background: repeating-linear-gradient(
-    -35deg,
-    var(--ifm-color-primary-lighter),
-    var(--ifm-color-primary-lighter) 20px,
-    var(--ifm-color-primary-lightest) 10px,
-    var(--ifm-color-primary-lightest) 40px
-  ) !important;
+  background: repeating-linear-gradient(-35deg,
+      var(--ifm-color-primary-lighter),
+      var(--ifm-color-primary-lighter) 20px,
+      var(--ifm-color-primary-lightest) 10px,
+      var(--ifm-color-primary-lightest) 40px) !important;
   font-weight: 700;
 }
 
-h1{
+h1 {
   color: var(--ifm-color-primary) !important;
 }
 
-.footer__col{
-z-index:10;
+.footer__col {
+  z-index: 10;
 }
 
-.navbar{
+.navbar {
   /* background-color: rgba(255, 255, 255, 0);
   backdrop-filter: blur(0px) !important; */
   /* box-shadow:var(--ifm-color-primary-dark) */
 }
 
-.navbar__search-input{
-    background: var(--ifm-navbar-search-input-background-color) var(--ifm-navbar-search-input-icon) no-repeat 0.75rem center / 1rem 1rem;
+.navbar__search-input {
+  background: var(--ifm-navbar-search-input-background-color) var(--ifm-navbar-search-input-icon) no-repeat 0.75rem center / 1rem 1rem;
 }
 
 /* 导航栏右侧GitHub图标 */
@@ -296,7 +298,8 @@ z-index:10;
 [data-theme='dark'] .header-github-link::before {
   background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='white' d='M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12'/%3E%3C/svg%3E") no-repeat;
 }
-.blockquote{
+
+.blockquote {
   border-left: var(--ifm-blockquote-border-left-width) solid var(--ifm-color-primary) !important;
 }
 
@@ -305,21 +308,22 @@ z-index:10;
   backdrop-filter: blur(100px);
 } */
 
-.navbar-sidebar{
+.navbar-sidebar {
   z-index: 1000 !important;
 }
+
 /* 代码高亮行 */
-.theme-code-block-highlighted-line{
+.theme-code-block-highlighted-line {
   background-color: #2e80ec3d !important;
 }
 
-.navbar__logo{
+.navbar__logo {
   transition: all 1s ease-in-out;
 }
 
-.navbar__logo:hover{
-    /* animation: heartbeats 3s infinite; */
-    opacity: 0.6;
+.navbar__logo:hover {
+  /* animation: heartbeats 3s infinite; */
+  opacity: 0.6;
 }
 
 /* @keyframes heartbeats {
@@ -334,13 +338,13 @@ z-index:10;
     }
 } */
 
-.markdown h1{
-  background: linear-gradient(to right, rgb(50, 109, 248),rgba(135, 236, 246, 1) ) !important;
+.markdown h1 {
+  background: linear-gradient(to right, rgb(50, 109, 248), rgba(135, 236, 246, 1)) !important;
   /* background-image: linear-gradient(to right, orange, purple); */
   -webkit-background-clip: text !important;
   color: transparent !important;
 }
 
-.menu__link--active:not(.menu__link--sublist){
+.menu__link--active:not(.menu__link--sublist) {
   background-color: var(--ifm-color-primary-bk) !important;
 }
