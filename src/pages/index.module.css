@@ -482,7 +482,11 @@
    font-size: 6rem;
    font-weight: 1000;
    position: relative;
-   color: rgb(173, 219, 255);
+   /* color: rgb(173, 219, 255); */
+   background: linear-gradient(to right, rgb(50, 109, 248), rgba(135, 236, 246, 1));
+   /* background-image: linear-gradient(to right, orange, purple); */
+   -webkit-background-clip: text;
+   color: transparent;
    margin-top: 14rem;
    margin-bottom: 23rem;
    font-family: 'bigsizefront';

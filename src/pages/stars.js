@@ -18,17 +18,18 @@ function HomepageHeader() {
             <ReactNebula config={{
                 starsCount: 250,
                 starsRotationSpeed: 3,
-                nebulasIntensity: 8,
-                sunScale: 0,
+                nebulasIntensity: 10,
+                sunScale: 1,
                 starsCount: 400,
                 starsRotationSpeed: 5,
-                planetsScale: 0,
-                nebulasIntensity: 0,
-                bgColor: 'rgb(8,8,8)',
+                planetsScale: 1,
+                nebulasIntensity: 1,
+                cometFrequence: 20,
+                
             }} />
 
             <div style={{ width: "100%", height: "100%", display: "flex", alignContent: "center", justifyContent: "center" }}>
-                <span className={clsx('welwordko', styles.welwordko)}>Sailing in the cosmos</span>
+                <span className={clsx('welwordko', styles.welwordko)}>Nebula</span>
                 <img style={{ height: "1rem" }} alt="mmm" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/NEBULA.png" />
             </div>
             {/* <h1 className={clsx('gradiant', styles.gradiant)} style={{ fontSize: "4rem", marginBottom: "10px" }}>Nebula</h1> */}

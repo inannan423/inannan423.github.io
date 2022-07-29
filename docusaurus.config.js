@@ -131,7 +131,7 @@ const config = {
             }
             ,
             {
-              label: 'Stars',
+              label: 'Nebula',
               to: '/stars',
             }
           ],

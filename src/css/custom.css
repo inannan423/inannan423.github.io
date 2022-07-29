@@ -8,24 +8,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@700&family=Josefin+Sans:wght@200;400&family=Lily+Script+One&family=Noto+Sans+SC:wght@400;500&family=Pacifico&display=swap');
 
 :root {
-  /*  
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;*/
   --link-hero-color: #e3f6ff;
   --link-hero-color-bk: #b0e5fc;
   /* --ifm-color-primary: #338bff; */
   --ifm-color-primary-bk: rgba(51, 139, 255, 0.102);
-  /* --ifm-color-primary-dark: #119cc5;
-  --ifm-color-primary-darker: #05879d;
-  --ifm-color-primary-darkest: #007a87;
-  --ifm-color-primary-light: hsl(214deg, 100%, 75%);
-  --ifm-color-primary-lighter: #c6ebfc;
-  --ifm-color-primary-lightest: #f2fbff; */
   --ifm-color-primary: #338bff;
   --ifm-color-primary-dark: #147aff;
   --ifm-color-primary-darker: #0571ff;
@@ -47,13 +33,6 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  /* --ifm-color-primary: hsl(214deg, 100%, 60%);
-  --ifm-color-primary-dark: #119cc5;
-  --ifm-color-primary-darker: #05879d;
-  --ifm-color-primary-darkest: #007a87;
-  --ifm-color-primary-light: hsl(214deg, 100%, 75%);
-  --ifm-color-primary-lighter: #c6ebfc;
-  --ifm-color-primary-lightest: #f2fbff; */
   --ifm-color-primary: #398cfa;
   --ifm-color-primary-dark: #1b7bf9;
   --ifm-color-primary-darker: #0c72f9;
@@ -67,9 +46,12 @@
   --link-hero-color-bk: #51869d;
 }
 
-/* *{
-  font-family: 'Noto Sans SC', sans-serif;
-} */
+.time {
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+}
+
 .navbar {
   backdrop-filter: blur(60px);
 }
