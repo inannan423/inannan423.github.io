@@ -129,6 +129,11 @@ const config = {
               label: 'cssPano',
               to: '/projects_csspano',
             }
+            ,
+            {
+              label: 'Stars',
+              to: '/stars',
+            }
           ],
           },
           // {

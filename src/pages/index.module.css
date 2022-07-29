@@ -1,11 +1,16 @@
  /*新首页  */
 
+ .gradiant {
+   background: linear-gradient(324deg, #209bff, #00ffea);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ }
 
  @font-face {
 
    font-family: bigsizefront;
 
-   src: url('http://cdn.repository.webfont.com/webfonts/nomal/145841/47031/62e368eef629d81078539fc1.css');
+   src: url('http://cdn.repository.webfont.com/webfonts/nomal/145841/47842/62e38cf6f629d81078539fc3.css');
 
  }
 
@@ -472,6 +477,19 @@
    /* animation: bgp 5s infinite linear; */
  }
 
+ .welwordko {
+   z-index: 100;
+   font-size: 6rem;
+   font-weight: 1000;
+   position: relative;
+   color: rgb(173, 219, 255);
+   margin-top: 14rem;
+   margin-bottom: 23rem;
+   font-family: 'bigsizefront';
+   opacity: 0.5;
+   /* animation: bgp 5s infinite linear; */
+ }
+
  @-webkit-keyframes bgp {
    0% {
      background-position: 0 0;
@@ -568,6 +586,10 @@
    /* z-index: -1; */
  }
 
+ [data-theme='dark'] .circle {
+   display: none;
+ }
+
  .circles {
    right: -13rem;
    top: 26.44px;
@@ -580,6 +602,10 @@
    animation: heartbeat 3s infinite;
    filter: blur(80px);
    /* z-index: -1; */
+ }
+
+ [data-theme='dark'] .circles {
+   display: none;
  }
 
  @keyframes heartbeat {
