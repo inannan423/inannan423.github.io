@@ -6,13 +6,29 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import { ReactNebula } from "@flodlc/nebula";
 import styles from './index.module.css';
+// 新首页
 
+function HomePageIndex() {
+  const { siteConfig } = useDocusaurusContext();
+  return (
+    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <div className={clsx('mainpage', styles.mainpage)} >
+        {/* <div className={clsx('gcontainer', styles.gcontainer)}>
+          <p className={clsx('wavetext', styles.wavetext)}>TEXT WAVE</p>
+        </div> */}
+
+      </div>
+    </header>
+  );
+}
+
+// 原首页
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       {/* // With custom config */}
-        {/* <ReactNebula className={clsx('ministar', styles.ministar)} config={{
+      {/* <ReactNebula className={clsx('ministar', styles.ministar)} config={{
                starsCount: 250,
                starsRotationSpeed: 3,
                nebulasIntensity: 8,
@@ -59,10 +75,11 @@ export default function Home() {
       title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
+      {/* <HomePageIndex /> */}
       <main>
         <HomepageFeatures />
       </main>
-      
+
     </Layout>
   );
 }
