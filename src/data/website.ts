@@ -480,16 +480,16 @@ export const websiteData: WebsiteCategory[] = [
       },
     ],
   },
-  {
-    name: '致谢',
-    websites: [
-      {
-        name: '愧怍',
-        desc: '本页面参考愧怍的代码。',
-        logo: 'https://kuizuo.cn/img/logo.webp',
-        href: 'https://kuizuo.cn/',
-        tags: ['友链'],
-      },
-    ],
-  },
+  // {
+  //   name: '致谢',
+  //   websites: [
+  //     {
+  //       name: '愧怍',
+  //       desc: '本页面参考愧怍的代码。',
+  //       logo: 'https://kuizuo.cn/img/logo.webp',
+  //       href: 'https://kuizuo.cn/',
+  //       tags: ['友链'],
+  //     },
+  //   ],
+  // },
 ]
