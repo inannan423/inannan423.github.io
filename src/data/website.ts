@@ -193,6 +193,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['前端', 'Angular', '框架'],
       },
       {
+        name: 'JSchallenger',
+        desc: '在线闯关学习JavaScript',
+        logo: 'https://www.jschallenger.com/favicon.png',
+        href: 'https://www.jschallenger.com/',
+        tags: ['前端', 'JavaScript'],
+      },
+      {
         name: 'Node',
         desc: '前端做后端的神器',
         logo: 'https://cdn.jsdelivr.net/gh/Yafine/cdn@3.2.1/source/box/images/logo/Node.js.png',
