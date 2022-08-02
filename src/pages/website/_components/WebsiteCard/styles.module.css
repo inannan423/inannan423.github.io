@@ -20,6 +20,7 @@
   width: 64px;
   height: 64px;
   min-width: 64px;
+  border-radius: 50%;
 }
 
 .websiteCardHeader {
