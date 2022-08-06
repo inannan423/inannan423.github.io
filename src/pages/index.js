@@ -120,14 +120,17 @@ export default function Home() {
       description="Description will go into a meta tag in <head />"
     >
       {/* <HomepageHeader /> */}
-      <HomePageIndex />
+      
 
       <main>
-        <Bigimg />
-        <Slider/>
+        {/* <Bigimg /> */}
+        <HomepageHeader/>
         <HomepageFeatures />
-        
+        <Slider />
+        <HomePageIndex />
       </main>
+
+
     </Layout>
   );
 }

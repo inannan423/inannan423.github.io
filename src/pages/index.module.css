@@ -37,7 +37,7 @@
    width: 80%;
    /* border-right: 10px solid rgba(0, 0, 0, 0.277);
     */
-   border-right: .15em solid rgba(121, 120, 119, 0.264);
+   /* border-right: .15em solid rgba(121, 120, 119, 0.264); */
    height: 220px;
    background: linear-gradient(to right, rgb(19, 138, 229), rgb(39, 237, 214));
    -webkit-background-clip: text;
@@ -64,7 +64,7 @@
    animation: blink .5s infinite,
      widths 6s steps(18, end) forwards,
      hue 8s linear infinite;
-   margin-top: -10px;
+   /* margin-top: -10px; */
    /* 重点 steps() */
  }
 
@@ -674,6 +674,8 @@
    /* background-color: #e0e5ff; */
  }
 
+
+
  .bigmax {
    width: 100%;
    margin: 0 auto;
@@ -894,7 +896,7 @@
    height: 40px;
    position: absolute;
    left: 48px;
-   top: 380px;
+   top: 330px;
    transition: all 1s ease-in-out;
    z-index: 10;
  }

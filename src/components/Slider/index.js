@@ -14,8 +14,6 @@ export default class SimpleSlider extends Component {
       dots: false,
     };
     return (
-      <div>
-        {/* <h2>  </h2> */}
         <Slider {...settings}>
           <div className={styles.picbox}>
             <a target={"_blank"} href="https://inannan423.github.io/Svg_Board/#/">
@@ -33,7 +31,6 @@ export default class SimpleSlider extends Component {
             </a>
           </div>
         </Slider>
-      </div>
     );
   }
 }
