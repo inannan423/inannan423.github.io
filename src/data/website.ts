@@ -134,7 +134,7 @@ export const websiteData: WebsiteCategory[] = [
       {
         name: 'GitHub',
         desc: '全球最大的软件项目托管平台，发现优质开源项目',
-        logo: 'https://github.githubassets.com/favicons/favicon.svg',
+        logo: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/iconify-akar-icons_github-fill.png',
         href: 'https://github.com/',
         tags: ['GitHub', '代码托管', '项目源码', '社区'],
       },
@@ -175,7 +175,7 @@ export const websiteData: WebsiteCategory[] = [
         name: 'Vue.js',
         desc: '渐进式 JavaScript 框架',
         logo: 'https://vuejs.org/logo.svg',
-        href: 'https://vuejs.org',
+        href: 'https://staging-cn.vuejs.org/',
         tags: ['前端', 'Vue', '框架'],
       },
       {
@@ -227,13 +227,7 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://www.nodeapp.cn/',
         tags: ['Nodejs', '笔记', '教程'],
       },
-      {
-        name: 'Bounce.js',
-        desc: '可视化css代码生成器',
-        logo: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/sqr.png',
-        href: 'http://www.htmleaf.com/Demo/201502231412.html',
-        tags: ['css'],
-      },
+
       {
         name: 'Vite',
         desc: '下一代的前端工具链，为开发提供极速响应',
@@ -305,13 +299,7 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://ant.design',
         tags: ['前端', 'React', '组件库'],
       },
-      {
-        name: 'CSS参考-MDN',
-        desc: 'MDN的CSS参考手册',
-        logo: 'https://developer.mozilla.org/favicon-48x48.cbbd161b.png',
-        href: 'https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference',
-        tags: ['Css', '教程'],
-      },
+
       {
         name: 'JavaScript',
         desc: 'Javascript参考手册',
@@ -334,16 +322,23 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['微信小程序', '文档'],
       },
       {
-        name: 'w3schools css 教程',
-        desc: 'w3schools 从基础到高级的CSS教程',
-        logo: 'https://www.w3schools.com/favicon.ico',
-        href: 'https://www.w3schools.com/css',
-        tags: ['Css', '样式'],
+        name: 'React Slick',
+        desc: '一个React轮播图插件',
+        logo: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/iconify-vscode-icons_file-type-svg.png',
+        href: 'https://react-slick.neostack.com/',
+        tags: ['轮播图', 'React'],
       },
+
+
+    ],
+  },
+  {
+    name: '站点生成',
+    websites: [
       {
         name: 'Docusaurus',
         desc: '快速构建以内容为核心的最佳网站，本站就是基于它的',
-        logo: 'https://docusaurus.io/img/docusaurus.png',
+        logo: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/docusaurus.png',
         href: 'https://docusaurus.io',
         tags: ['前端', 'React', '静态站点'],
       },
@@ -361,11 +356,57 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://vuepress.vuejs.org/',
         tags: ['前端', 'Vue', '静态站点'],
       },
-
-    ],
+    ]
   },
   {
-    name: '编程',
+    name: 'CSS',
+    websites: [
+      {
+        name: 'CSS参考-MDN',
+        desc: 'MDN的CSS参考手册',
+        logo: 'https://developer.mozilla.org/favicon-48x48.cbbd161b.png',
+        href: 'https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference',
+        tags: ['Css', '教程'],
+      },
+      {
+        name: 'Animate.css',
+        desc: '超好用的css动效库',
+        logo: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/an-css.png',
+        href: 'https://animate.style/',
+        tags: ['CSS'],
+      },
+      {
+        name: 'Bounce.js',
+        desc: '可视化css代码生成器',
+        logo: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/sqr.png',
+        href: 'http://www.htmleaf.com/Demo/201502231412.html',
+        tags: ['css'],
+      },
+      {
+        name: 'Ripple.wxss',
+        desc: '微信小程序动效库',
+        logo: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/ripple.png',
+        href: 'https://github.com/jeasonstudio/Ripples.wxss',
+        tags: ['css'],
+      },
+      {
+        name: 'w3schools css 教程',
+        desc: 'w3schools 从基础到高级的CSS教程',
+        logo: 'https://www.w3schools.com/favicon.ico',
+        href: 'https://www.w3schools.com/css',
+        tags: ['Css', '样式'],
+      },
+      {
+        name: 'ToolBox',
+        desc: 'css效果可视化编辑器:玻璃、拟物',
+        logo: 'http://santhoshsivan.com/src/tb-logo.svg',
+        href: 'http://santhoshsivan.com/toolbox.html',
+        tags: ['css'],
+      },
+    ]
+  },
+  {
+    name: '后端',
     websites: [
       {
         name: 'Java',
@@ -422,17 +463,11 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://deco-preview.jd.com/?from=taro-docs',
         tags: ['图标'],
       },
-      {
-        name: 'ToolBox',
-        desc: 'css效果可视化编辑器:玻璃、拟物',
-        logo: 'http://santhoshsivan.com/src/tb-logo.svg',
-        href: 'http://santhoshsivan.com/toolbox.html',
-        tags: ['css'],
-      },
+
       {
         name: '有字库',
         desc: '国内生态的web字体CDN',
-        logo: 'https://cdn.res.webfont.com/wwwroot/www/Images/base/logo.png',
+        logo: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/fontweb.png',
         href: 'https://www.webfont.com/',
         tags: ['字体'],
       },
@@ -473,7 +508,7 @@ export const websiteData: WebsiteCategory[] = [
       },
       {
         name: '谷歌字体',
-        desc: '一个生成渐变色背景的网站',
+        desc: 'web字体',
         logo: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/gog.png',
         href: 'https://googlefonts.cn/',
         tags: ['字体'],

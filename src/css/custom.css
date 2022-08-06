@@ -9,10 +9,11 @@
 
 :root {
   /* markdown的超链接样式 */
-  --markdown--a:#b0e5fc94;
-  --markdown--a--b:#cab0fc94;
+  --markdown--a: #b0e5fc94;
+  --markdown--a--b: #cab0fc94;
   --link-hero-color: #e3f6ff;
   --link-hero-color-bk: #b0e5fc;
+  --heroword: rgb(44, 44, 44);
   /* --ifm-color-primary: #338bff; */
   --ifm-color-primary-bk: rgba(51, 139, 255, 0.102);
   --ifm-color-primary: #338bff;
@@ -36,8 +37,8 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-    --markdown--a:#09384b94;
-  --markdown--a--b:#6341a294;
+  --markdown--a: #09384b94;
+  --markdown--a--b: #6341a294;
   --ifm-color-primary: #398cfa;
   --ifm-color-primary-dark: #1b7bf9;
   --ifm-color-primary-darker: #0c72f9;
@@ -49,6 +50,7 @@
   --ifm-navbar-background-color: rgba(41, 39, 39, 0.444);
   --link-hero-color: rgb(102, 152, 179);
   --link-hero-color-bk: #51869d;
+  --heroword: rgb(204, 204, 204);
 }
 
 .time {
@@ -336,11 +338,11 @@ h1 {
   background-color: var(--ifm-color-primary-bk) !important;
 }
 
-.markdown a{
+.markdown a {
   background-color: var(--markdown--a);
   transition: background-color 1s ease-in-out;
 }
 
-.markdown a :hover{
+.markdown a :hover {
   background-color: var(--markdown--a--b);
 }
