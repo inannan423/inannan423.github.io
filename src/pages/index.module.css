@@ -5,7 +5,7 @@
    text-align: center;
    position: relative;
    overflow: hidden;
-   background: rgb(245, 250, 255);
+   /* background: rgb(245, 250, 255); */
    /* height: 30rem; */
  }
 
@@ -19,7 +19,7 @@
    text-align: center;
    position: relative;
    overflow: hidden;
-   background: rgb(32, 32, 32);
+   /* background: rgb(32, 32, 32); */
  }
 
  .Bigimg {
