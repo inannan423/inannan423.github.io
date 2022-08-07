@@ -113,6 +113,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['在线编码', '开发平台'],
       },
       {
+        name: 'Codesandbox',
+        desc: '在线编码代码沙盒',
+        logo: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20220806212946.png',
+        href: 'https://codesandbox.io/?from-app=1',
+        tags: ['在线编码', '开发平台'],
+      },
+      {
         name: 'Base64编码',
         desc: '图片和Base64转换',
         logo: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/base.png',
@@ -172,10 +179,17 @@ export const websiteData: WebsiteCategory[] = [
     name: '前端',
     websites: [
       {
-        name: 'Vue.js',
+        name: 'Vue.js 3.0',
         desc: '渐进式 JavaScript 框架',
         logo: 'https://vuejs.org/logo.svg',
         href: 'https://staging-cn.vuejs.org/',
+        tags: ['前端', 'Vue', '框架'],
+      },
+      {
+        name: 'Vue.js 2.0',
+        desc: '渐进式 JavaScript 框架',
+        logo: 'https://vuejs.org/logo.svg',
+        href: 'https://cn.vuejs.org/v2/guide/',
         tags: ['前端', 'Vue', '框架'],
       },
       {

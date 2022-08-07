@@ -13,7 +13,8 @@
   --markdown--a--b: #cab0fc94;
   --link-hero-color: #e3f6ff;
   --link-hero-color-bk: #b0e5fc;
-  --heroword: rgb(44, 44, 44);
+  --heroword: rgba(247, 247, 247, 0.661);
+  --word--wek: rgba(24, 24, 24, 0.661);
   /* --ifm-color-primary: #338bff; */
   --ifm-color-primary-bk: rgba(51, 139, 255, 0.102);
   --ifm-color-primary: #338bff;
@@ -23,6 +24,7 @@
   --ifm-color-primary-light: #529cff;
   --ifm-color-primary-lighter: #61a5ff;
   --ifm-color-primary-lightest: #8fbfff;
+  --ifm-color-primary-lightest-light: #8fc0ff44;
   --ifm-navbar-background-color: rgba(255, 255, 255, 0.198);
   /* --ifm-color-white:repeating-linear-gradient(-35deg,var(--ifm-color-primary-lighter),var(--ifm-color-primary-lighter) 20px,var(--ifm-color-primary-lightest) 10px,var(--ifm-color-primary-lightest) 40px); */
   /* --ifm-navbar-background-color:rgba(255, 255, 255, 0.955); */
@@ -37,6 +39,7 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
+  --word--wek: rgba(228, 228, 228, 0.661);
   --markdown--a: #09384b94;
   --markdown--a--b: #6341a294;
   --ifm-color-primary: #398cfa;
@@ -50,7 +53,15 @@
   --ifm-navbar-background-color: rgba(41, 39, 39, 0.444);
   --link-hero-color: rgb(102, 152, 179);
   --link-hero-color-bk: #51869d;
-  --heroword: rgb(204, 204, 204);
+  --heroword: rgb(35, 36, 36);
+}
+
+iframe {
+  border: var(--ifm-color-primary) 5px dashed;
+  border-radius: 10px;
+  /* background-image: repeating-linear-gradient(60deg, rgb(111, 170, 247), rgb(0, 74, 94) 15px, rgba(0, 94, 93, 0.5) 0, rgba(0, 94, 93, 0.5) 30px); */
+  background-color: var(--ifm-color-primary-lightest-light);
+  /* box-shadow: ; */
 }
 
 .time {

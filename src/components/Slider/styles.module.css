@@ -1,10 +1,10 @@
+.slick-slide {
+    overflow: hidden;
+}
+
 .picbox {
     /* margin-top: 6rem; */
     padding: 6rem;
-    background: rgb(245, 250, 255);
-}
-
-[data-theme='dark'] .picbox {
-    padding: 6rem;
-    background: rgb(32, 32, 32);
+    /* background: rgb(245, 250, 255); */
+    overflow: hidden;
 }

@@ -19,7 +19,7 @@ import "slick-carousel/slick/slick-theme.css";
 function HomePageIndex() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
+    <header className={clsx("hero hero--primary", styles.heroBanner1)}>
       <div className={clsx("toppage", styles.toppage)}>
         <div className={clsx("circleTop", styles.circleTop)}></div>
         <div className={clsx("circleTop1", styles.circleTop1)}></div>
