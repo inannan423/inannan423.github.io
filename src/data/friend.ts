@@ -26,6 +26,12 @@ export const Friends: Friend[] = [
     avatar: 'https://kuizuo.cn/img/logo.webp',
     website: 'https://kuizuo.cn/',
   },
+  {
+    title: 'XBan',
+    description: 'Just an ordinary BLEACH FAN',
+    avatar: 'https://s2.loli.net/2022/07/30/ENgfwdO1VpoWjKJ.png',
+    website: 'https://my-docu-xban12.vercel.app/',
+  },
 ]
 
 export function sortFriend() {
