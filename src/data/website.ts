@@ -120,6 +120,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['在线编码', '开发平台'],
       },
       {
+        name: 'stackblitz',
+        desc: '针对 Web 开发者的在线 IDE',
+        logo: 'https://c.staticblitz.com/assets/pwa-icon-f559737e5eae9b3544e5cc1291118bf758ee20873d496f1ce2052859fb3b72d6.png',
+        href: 'https://stackblitz.com/',
+        tags: ['在线编码', '开发平台'],
+      },
+      {
         name: 'Base64编码',
         desc: '图片和Base64转换',
         logo: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/base.png',
@@ -529,16 +536,23 @@ export const websiteData: WebsiteCategory[] = [
       },
     ],
   },
-  // {
-  //   name: '致谢',
-  //   websites: [
-  //     {
-  //       name: '愧怍',
-  //       desc: '本页面参考愧怍的代码。',
-  //       logo: 'https://kuizuo.cn/img/logo.webp',
-  //       href: 'https://kuizuo.cn/',
-  //       tags: ['友链'],
-  //     },
-  //   ],
-  // },
+  {
+    name: '接口测试',
+    websites: [
+      {
+        name: 'Apifox',
+        desc: 'API 文档、API 调试、API Mock、API 自动化测试',
+        logo: 'https://cdn.apifox.cn/logo/apifox-logo-512.png',
+        href: 'https://www.apifox.cn/',
+        tags: ['友链'],
+      },
+      {
+        name: 'Apipost',
+        desc: '支持团队协作、可直接生成文档的API调试、管理工具',
+        logo: 'https://img.cdn.apipost.cn/statics/www/img/favicon.ico',
+        href: 'https://www.apipost.cn/',
+        tags: ['友链'],
+      },
+    ],
+  },
 ]

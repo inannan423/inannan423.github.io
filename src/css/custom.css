@@ -50,7 +50,7 @@
   --ifm-color-primary-lighter: #66a6fb;
   --ifm-color-primary-lightest: #93c0fc;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --ifm-navbar-background-color: rgba(41, 39, 39, 0.444);
+  --ifm-navbar-background-color: rgb(23, 23, 23);
   --link-hero-color: rgb(102, 152, 179);
   --link-hero-color-bk: #51869d;
   --heroword: rgb(35, 36, 36);
@@ -72,6 +72,10 @@ iframe {
 
 .navbar {
   backdrop-filter: blur(60px);
+}
+
+[data-theme='dark'] .navbar {
+  backdrop-filter: blur(0px);
 }
 
 .navbar__title {
