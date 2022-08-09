@@ -242,8 +242,8 @@ article>li {
 }
 
 code {
-  background-color: #2e80ec2d;
-  border: 0.1rem solid rgba(174, 191, 255, 0.794);
+  background-color: #2e80ec14;
+  border: 0.1rem solid rgba(25, 74, 251, 0.323);
   border-radius: var(--ifm-code-border-radius);
   font-family: var(--ifm-font-family-monospace);
   font-size: var(--ifm-code-font-size);

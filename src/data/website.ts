@@ -133,6 +133,13 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://base64.us/',
         tags: ['工具'],
       },
+      {
+        name: '火山翻译',
+        desc: '字节跳动旗下的翻译工具',
+        logo: 'https://content.volccdn.com/obj/volc-content/lab/mt-portal/mt-portal-fe/static/media/favicon.387a6ce7.ico',
+        href: 'https://translate.volcengine.com/',
+        tags: ['工具'],
+      },      
       // {
       //   name: ' JsonT.run',
       //   desc: '一个简洁的在线 JSON 解析器',
