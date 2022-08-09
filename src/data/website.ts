@@ -551,15 +551,41 @@ export const websiteData: WebsiteCategory[] = [
         desc: 'API 文档、API 调试、API Mock、API 自动化测试',
         logo: 'https://cdn.apifox.cn/logo/apifox-logo-512.png',
         href: 'https://www.apifox.cn/',
-        tags: ['友链'],
+        tags: ['端口测试'],
       },
       {
         name: 'Apipost',
         desc: '支持团队协作、可直接生成文档的API调试、管理工具',
         logo: 'https://img.cdn.apipost.cn/statics/www/img/favicon.ico',
         href: 'https://www.apipost.cn/',
-        tags: ['友链'],
+        tags: ['端口测试'],
       },
+    ],
+  },
+  {
+    name: '站点收藏',
+    websites: [
+      {
+        name: 'NuxtLab',
+        desc: 'Nuxt开发者公司的官方网站',
+        logo: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20220809214448.png',
+        href: 'https://nuxtlabs.com/',
+        tags: ['网站收藏'],
+      },
+      {
+        name: 'MIUI 13',
+        desc: 'MIUI 展示网站',
+        logo: 'https://cdn.cnbj1.fds.api.mi-img.com/miui-13/favicon.ico',
+        href: 'https://home.miui.com/',
+        tags: ['端口测试'],
+      },
+      // {
+      //   name: 'cuberto',
+      //   desc: '创意的鼠标交互',
+      //   logo: 'https://cdn.cnbj1.fds.api.mi-img.com/miui-13/favicon.ico',
+      //   href: 'https://cuberto.com/tutorials/8/',
+      //   tags: ['端口测试'],
+      // },
     ],
   },
 ]
