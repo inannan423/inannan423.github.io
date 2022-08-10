@@ -190,22 +190,8 @@ export const websiteData: WebsiteCategory[] = [
     ],
   },
   {
-    name: '前端',
+    name: '前端其他',
     websites: [
-      {
-        name: 'Vue.js 3.0',
-        desc: '渐进式 JavaScript 框架',
-        logo: 'https://vuejs.org/logo.svg',
-        href: 'https://staging-cn.vuejs.org/',
-        tags: ['前端', 'Vue', '框架'],
-      },
-      {
-        name: 'Vue.js 2.0',
-        desc: '渐进式 JavaScript 框架',
-        logo: 'https://vuejs.org/logo.svg',
-        href: 'https://cn.vuejs.org/v2/guide/',
-        tags: ['前端', 'Vue', '框架'],
-      },
       {
         name: 'React',
         desc: '用于构建用户界面的 JavaScript 库',
@@ -256,27 +242,7 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['Nodejs', '笔记', '教程'],
       },
 
-      {
-        name: 'Vite',
-        desc: '下一代的前端工具链，为开发提供极速响应',
-        logo: 'https://www.vitejs.net/logo.svg',
-        href: 'https://www.vitejs.net/',
-        tags: ['前端', 'Vue', '框架'],
-      },
-      {
-        name: 'Vitest',
-        desc: '一个 Vite 原生单元测试框架。它很快！',
-        logo: 'https://vitest.dev/favicon.ico',
-        href: 'https://cn.vitest.dev/',
-        tags: ['前端', 'Vue', '框架'],
-      },
-      {
-        name: 'GIN-VUE-ADMIN',
-        desc: '一款基于GIN+VUE+ElementUI开发的全栈基础开发平台',
-        logo: 'https://www.gin-vue-admin.com/favicon.ico',
-        href: 'https://www.gin-vue-admin.com/',
-        tags: ['前端', 'Vue', 'admin'],
-      },
+    
       {
         name: 'Greensock',
         desc: '超强大h5动画库',
@@ -291,27 +257,7 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://threejs.org/',
         tags: ['前端', 'JavaScript', '3D'],
       },
-      {
-        name: 'Nuxt.js',
-        desc: '使用 NuxtJS 充满信心地构建您的下一个 Vue.js 应用程序。 一个 开源 框架，让 Web 开发变得简单而强大。',
-        logo: 'https://nuxtjs.org/_nuxt/icons/icon_64x64.a3b4ce.png',
-        href: 'https://nuxtjs.org/',
-        tags: ['前端', 'Vue', '文档', '框架'],
-      },
-      {
-        name: 'Element',
-        desc: '基于 Vue，面向设计师和开发者的组件库',
-        logo: 'https://element-plus.gitee.io/images/element-plus-logo-small.svg',
-        href: 'https://element.eleme.cn/#/zh-CN',
-        tags: ['前端', 'Vue', '组件库'],
-      },
-      {
-        name: 'VbenAdmin',
-        desc: 'Vben是一个基于Vue3、Vite、TypeScript等最新技术栈开发的后台管理框架',
-        logo: 'https://vvbin.cn/doc-next/logo.png',
-        href: 'https://vvbin.cn/doc-next/',
-        tags: ['前端', 'Vue', '后台', '项目'],
-      },
+   
 
       {
         name: 'Next.js',
@@ -359,6 +305,74 @@ export const websiteData: WebsiteCategory[] = [
 
 
     ],
+  },
+  {
+    name: 'Vue.js',
+    websites: [
+      {
+        name: 'Vue.js 3.0',
+        desc: '渐进式 JavaScript 框架',
+        logo: 'https://vuejs.org/logo.svg',
+        href: 'https://staging-cn.vuejs.org/',
+        tags: ['前端', 'Vue', '框架'],
+      },
+      {
+        name: 'Vue.js 2.0',
+        desc: '渐进式 JavaScript 框架',
+        logo: 'https://vuejs.org/logo.svg',
+        href: 'https://cn.vuejs.org/v2/guide/',
+        tags: ['前端', 'Vue', '框架'],
+      },
+      {
+        name: 'Nuxt.js',
+        desc: '使用 NuxtJS 充满信心地构建您的下一个 Vue.js 应用程序。 一个 开源 框架，让 Web 开发变得简单而强大。',
+        logo: 'https://nuxtjs.org/_nuxt/icons/icon_64x64.a3b4ce.png',
+        href: 'https://nuxtjs.org/',
+        tags: ['前端', 'Vue', '文档', '框架'],
+      },
+      {
+        name: 'Element',
+        desc: '基于 Vue，面向设计师和开发者的组件库',
+        logo: 'https://element-plus.gitee.io/images/element-plus-logo-small.svg',
+        href: 'https://element.eleme.cn/#/zh-CN',
+        tags: ['前端', 'Vue', '组件库'],
+      },
+      {
+        name: 'VbenAdmin',
+        desc: 'Vben是一个基于Vue3、Vite、TypeScript等最新技术栈开发的后台管理框架',
+        logo: 'https://vvbin.cn/doc-next/logo.png',
+        href: 'https://vvbin.cn/doc-next/',
+        tags: ['前端', 'Vue', '后台', '项目'],
+      },
+      {
+        name: 'Vite',
+        desc: '下一代的前端工具链，为开发提供极速响应',
+        logo: 'https://www.vitejs.net/logo.svg',
+        href: 'https://www.vitejs.net/',
+        tags: ['前端', 'Vue', '框架'],
+      },
+      {
+        name: 'Vitest',
+        desc: '一个 Vite 原生单元测试框架。它很快！',
+        logo: 'https://vitest.dev/favicon.ico',
+        href: 'https://cn.vitest.dev/',
+        tags: ['前端', 'Vue', '框架'],
+      },
+      {
+        name: 'GIN-VUE-ADMIN',
+        desc: '一款基于GIN+VUE+ElementUI开发的全栈基础开发平台',
+        logo: 'https://www.gin-vue-admin.com/favicon.ico',
+        href: 'https://www.gin-vue-admin.com/',
+        tags: ['前端', 'Vue', 'admin'],
+      },
+       {
+        name: 'View Design',
+        desc: '基于 Vue.js 3 的企业级 UI 组件库和前端解决方案',
+        logo: 'https://file.iviewui.com/view-design-logo.png',
+        href: 'https://www.gin-vue-admin.com/',
+        tags: ['前端', 'Vue'],
+      },
+    ]
   },
   {
     name: '站点生成',
@@ -440,6 +454,13 @@ export const websiteData: WebsiteCategory[] = [
         name: 'Java',
         desc: 'Java学习文档',
         logo: 'https://zq99299.github.io/java-tutorial/favicon.ico',
+        href: 'https://zq99299.github.io/java-tutorial/',
+        tags: ['编程'],
+      },
+      {
+        name: 'Spring',
+        desc: 'Spring makes Java reactive',
+        logo: 'https://spring.io/images/icon-spring-edf462fec682b9d48cf628eaf9e19521.svg',
         href: 'https://zq99299.github.io/java-tutorial/',
         tags: ['编程'],
       },
@@ -577,7 +598,14 @@ export const websiteData: WebsiteCategory[] = [
         desc: 'MIUI 展示网站',
         logo: 'https://cdn.cnbj1.fds.api.mi-img.com/miui-13/favicon.ico',
         href: 'https://home.miui.com/',
-        tags: ['端口测试'],
+        tags: ['网站收藏'],
+      },
+      {
+        name: 'JetBrains',
+        desc: '全球知名计算机技术软件网站',
+        logo: 'https://www.jetbrains.com/favicon.ico',
+        href: 'https://www.jetbrains.com/',
+        tags: ['网站收藏'],
       },
       // {
       //   name: 'cuberto',
