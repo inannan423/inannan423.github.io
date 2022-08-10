@@ -302,8 +302,20 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://react-slick.neostack.com/',
         tags: ['轮播图', 'React'],
       },
-
-
+      {
+        name: 'Electron',
+        desc: '使用 JavaScript ，HTML 和 CSS 构建跨平台的桌面应用程序',
+        logo: 'https://github.githubassets.com/images/icons/emoji/electron.png',
+        href: 'https://www.electronjs.org/',
+        tags: ['跨平台', 'React'],
+      },
+      {
+        name: 'Flutter',
+        desc: '为所有屏幕创造精彩',
+        logo: 'https://flutter.cn/assets/images/cn/flutter-320px.png',
+        href: 'https://flutter.cn/',
+        tags: ['跨平台', 'React'],
+      },
     ],
   },
   {
