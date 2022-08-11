@@ -27,6 +27,12 @@ export const Friends: Friend[] = [
     website: 'https://kuizuo.cn/',
   },
   {
+    title: 'OYY Blog',
+    description: 'Me the man handsome so much(?)',
+    avatar: 'https://tva4.sinaimg.cn/large/b447be47ly1h4uqtlstu7j20ht0hcwgh.jpg',
+    website: 'https://jiechuqingnianoyy.vercel.app/',
+  },
+  {
     title: 'XBan',
     description: 'Just an ordinary BLEACH FAN',
     avatar: 'https://s2.loli.net/2022/07/30/ENgfwdO1VpoWjKJ.png',
