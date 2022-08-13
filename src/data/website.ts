@@ -194,8 +194,8 @@ export const websiteData: WebsiteCategory[] = [
     websites: [
       {
         name: '前端学习路线',
-        desc: '用于构建用户界面的 JavaScript 库',
-        logo: 'https://reactjs.org/favicon.ico',
+        desc: '前端学习路线指导',
+        logo: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/frontendlogo.png',
         href: 'https://objtube.github.io/front-end-roadmap/#/',
         tags: ['前端'],
       },
