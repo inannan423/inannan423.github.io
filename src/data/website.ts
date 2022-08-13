@@ -193,6 +193,13 @@ export const websiteData: WebsiteCategory[] = [
     name: '前端其他',
     websites: [
       {
+        name: '前端学习路线',
+        desc: '用于构建用户界面的 JavaScript 库',
+        logo: 'https://reactjs.org/favicon.ico',
+        href: 'https://objtube.github.io/front-end-roadmap/#/',
+        tags: ['前端'],
+      },
+      {
         name: 'React',
         desc: '用于构建用户界面的 JavaScript 库',
         logo: 'https://reactjs.org/favicon.ico',
@@ -639,6 +646,7 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://www.jetbrains.com/',
         tags: ['网站收藏'],
       },
+      
       // {
       //   name: 'cuberto',
       //   desc: '创意的鼠标交互',
