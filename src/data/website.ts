@@ -200,6 +200,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['前端'],
       },
       {
+        name: 'JS 学习指南',
+        desc: 'JavaScript 知识图谱：ECMAScript、DOM、BOM、HTML5、计算机网络',
+        logo: 'https://img.mrsingsing.com/javascript-guidebook-favicon.png',
+        href: 'https://tsejx.github.io/javascript-guidebook//',
+        tags: ['前端'],
+      },
+      {
         name: 'React',
         desc: '用于构建用户界面的 JavaScript 库',
         logo: 'https://reactjs.org/favicon.ico',
@@ -434,6 +441,13 @@ export const websiteData: WebsiteCategory[] = [
         desc: 'MDN的CSS参考手册',
         logo: 'https://developer.mozilla.org/favicon-48x48.cbbd161b.png',
         href: 'https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference',
+        tags: ['Css', '教程'],
+      },
+      {
+        name: '神奇UI样式',
+        desc: 'Universe of UI elements tohelp you stand out',
+        logo: 'https://uiverse.io/static/media/framed.0ab7be76.svg',
+        href: 'https://uiverse.io/buttons',
         tags: ['Css', '教程'],
       },
       {

@@ -4,6 +4,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
+import StarMeButton from "@site/src/components/StarMeButton";
 import Slider from "@site/src/components/Slider";
 import { ReactNebula } from "@flodlc/nebula";
 import styles from "./index.module.css";
@@ -11,8 +12,6 @@ import styles from "./index.module.css";
 //在头部引入css
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
-
 
 // 新首页
 
@@ -46,7 +45,9 @@ function Bigimg() {
         <div className={clsx("circleTopee", styles.circleTopee)}></div>
         <div className={clsx("leftside", styles.leftside)}>
           <span className={clsx("mkdown", styles.mkdown)}>Mark sth. down</span>
-          <span className={clsx("mkdownq", styles.mkdownq)}>让记录成为习惯</span>
+          <span className={clsx("mkdownq", styles.mkdownq)}>
+            让记录成为习惯
+          </span>
           <br />
           <br />
           <span className={clsx("welword1", styles.welword1)}>
@@ -57,10 +58,11 @@ function Bigimg() {
             href="https://github.com/inannan423/inannan423.github.io"
             target={"_blank"}
           >
-            <img
+            {/* <img
               className={clsx("starme", styles.starme)}
               src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/starmeme.png"
-            />
+            /> */}
+            <StarMeButton />
           </a>
         </div>
         <div className={clsx("sidepic", styles.sidepic)}>
@@ -94,10 +96,11 @@ function HomepageHeader() {
               href="https://github.com/inannan423/inannan423.github.io"
               target={"_blank"}
             >
-              <img
+              {/* <img
                 className={clsx("starme", styles.starme)}
                 src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/starmeme.png"
-              />
+              /> */}
+              <StarMeButton className={clsx("newStar", styles.newStar)} />
             </a>
             <div className={clsx("circle", styles.circle)}></div>
             <div className={clsx("circles", styles.circles)}></div>
@@ -120,17 +123,14 @@ export default function Home() {
       description="Description will go into a meta tag in <head />"
     >
       {/* <HomepageHeader /> */}
-      
 
       <main>
         {/* <Bigimg /> */}
-        <HomepageHeader/>
+        <HomepageHeader />
         <HomepageFeatures />
         <Slider />
         <HomePageIndex />
       </main>
-
-
     </Layout>
   );
 }

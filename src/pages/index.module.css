@@ -803,6 +803,10 @@
    .starme {
      display: none;
    }
+
+   .newStar {
+     display: none;
+   }
  }
 
  .circle {
