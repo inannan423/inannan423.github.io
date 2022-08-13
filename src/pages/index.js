@@ -5,6 +5,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import StarMeButton from "@site/src/components/StarMeButton";
+import TechStack from "../components/TechStack";
 import Slider from "@site/src/components/Slider";
 import { ReactNebula } from "@flodlc/nebula";
 import styles from "./index.module.css";
@@ -126,8 +127,11 @@ export default function Home() {
 
       <main>
         {/* <Bigimg /> */}
+
         <HomepageHeader />
         <HomepageFeatures />
+        <TechStack />
+
         <Slider />
         <HomePageIndex />
       </main>
