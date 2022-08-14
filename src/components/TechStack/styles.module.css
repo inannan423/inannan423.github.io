@@ -9,6 +9,7 @@
     overflow: hidden;
     color: rgb(50, 50, 50);
     border-radius: 15px;
+    margin-top: 10px;
     /* margin: 10px; */
 }
 
@@ -90,4 +91,10 @@
 .Techss {
     margin-top: 30px;
     margin-bottom: 30px;
+    background-color: var(--heroword);
+    padding: 50px;
+}
+
+.links {
+    width: 200px;
 }
