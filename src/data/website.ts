@@ -451,6 +451,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['Css', '教程'],
       },
       {
+        name: 'CSS-Inspiration',
+        desc: 'CSS灵感',
+        logo: 'https://csscoco.com/inspiration/images/logo2.png',
+        href: 'https://csscoco.com/inspiration/#/',
+        tags: ['Css', '教程'],
+      },
+      {
         name: 'Animate.css',
         desc: '超好用的css动效库',
         logo: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/an-css.png',

@@ -293,6 +293,13 @@ h1 {
   background: var(--ifm-navbar-search-input-background-color) var(--ifm-navbar-search-input-icon) no-repeat 0.75rem center / 1rem 1rem;
 }
 
+.navbar__search-input:focus {
+  outline-color: rgba(0, 255, 255, 0.477);
+  box-shadow: -3px -3px 15px rgba(0, 255, 255, 0.481);
+  transition: .1s;
+  transition-property: box-shadow;
+}
+
 /* 导航栏右侧GitHub图标 */
 .header-github-link:hover {
   opacity: 0.6;
