@@ -36,6 +36,19 @@ function HomePageIndex() {
     </header>
   );
 }
+function About() {
+  const { siteConfig } = useDocusaurusContext();
+  return (
+    <div className={clsx("aPicBox", styles.aPicBox)}>
+      <img
+        className={clsx("aboutPic", styles.aboutPic)}
+        src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/aboutmevue.png"
+        alt="about"
+      />
+    </div>
+  );
+}
+
 function Bigimg() {
   return (
     // <div className={clsx("BigimgBox", styles.BigimgBox)}>
@@ -127,8 +140,18 @@ export default function Home() {
 
       <main>
         {/* <Bigimg /> */}
-
+        <img
+          src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/mainpageBk.png"
+          alt="Bkp"
+          className={clsx("BkImg", styles.BkImg)}
+        />
+        {/* <img
+          src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/DarkBK.png"
+          alt="Bkp"
+          className={clsx("DarkBkImg", styles.DarkBkImg)}
+        /> */}
         <HomepageHeader />
+        <About />
         <HomepageFeatures />
         <TechStack />
 

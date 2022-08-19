@@ -1,5 +1,17 @@
  /*新首页  */
  /* 首页 */
+ .aboutPic {
+   margin-top: 20px;
+   width: 80%;
+   z-index: 10;
+ }
+
+ .aPicBox {
+   display: flex;
+   justify-content: center;
+   align-content: center;
+ }
+
  .heroBanner {
    padding: 4rem 0;
    text-align: center;
@@ -20,8 +32,32 @@
 
  .mainpage {
    overflow: hidden;
+   /* background-image: url('https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/mainpageBk.png'); */
  }
 
+ .BkImg {
+   position: absolute;
+   top: -50px;
+   left: 0;
+   opacity: 0.7;
+   z-index: -1;
+ }
+
+ [data-theme='dark'] .BkImg {
+   display: none;
+ }
+
+ .DarkBkImg {
+   display: none;
+ }
+
+ [data-theme='dark'] .DarkBkImg {
+   display: block;
+   position: absolute;
+   top: -50px;
+   left: 0;
+   opacity: 0.7;
+ }
 
  [data-theme='dark'] .heroBanner {
    padding: 4rem 0;
@@ -698,7 +734,7 @@
    float: left;
    position: relative;
    left: 3rem;
-   background: linear-gradient(to right, rgb(50, 109, 248), rgba(135, 236, 246, 1));
+   background: linear-gradient(to right, rgb(3, 74, 238), rgba(135, 236, 246, 1));
    /* background-image: linear-gradient(to right, orange, purple); */
    -webkit-background-clip: text;
    color: transparent;
@@ -1105,5 +1141,65 @@
 
    to {
      transform: translateY(-2000px);
+   }
+ }
+
+ /* From uiverse.io by @G4b413l */
+ .scanner h1 {
+   color: transparent;
+   font-size: 1.4rem;
+   position: relative;
+   overflow: hidden;
+ }
+
+ .scanner h1::before {
+   content: "Flying coding jet.";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 0;
+   height: 100%;
+   border-right: 4px solid #17FEFF;
+   overflow: hidden;
+   color: #17FEFF;
+   animation: load91371 2s linear infinite;
+ }
+
+ @keyframes load91371 {
+
+   0%,
+   10%,
+   100% {
+     width: 0;
+   }
+
+   10%,
+   20%,
+   30%,
+   40%,
+   50%,
+   60%,
+   70%,
+   80%,
+   90%,
+   100% {
+     border-right-color: transparent;
+   }
+
+   11%,
+   21%,
+   31%,
+   41%,
+   51%,
+   61%,
+   71%,
+   81%,
+   91% {
+     border-right-color: #17FEFF;
+   }
+
+   60%,
+   80% {
+     width: 100%;
    }
  }

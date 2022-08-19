@@ -375,3 +375,8 @@ h1 {
 .markdown a :hover {
   background-color: var(--markdown--a--b);
 }
+
+/* .dropdown__menu {
+  --ifm-dropdown-background-color: rgba(255, 255, 255, 0.888);
+  backdrop-filter: blur(120px) !important;
+} */

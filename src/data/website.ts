@@ -488,7 +488,7 @@ export const websiteData: WebsiteCategory[] = [
       {
         name: 'ToolBox',
         desc: 'css效果可视化编辑器:玻璃、拟物',
-        logo: 'http://santhoshsivan.com/src/tb-logo.svg',
+        logo: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20220816084636.png',
         href: 'http://santhoshsivan.com/toolbox.html',
         tags: ['css'],
       },
