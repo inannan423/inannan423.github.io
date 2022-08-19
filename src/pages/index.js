@@ -9,7 +9,7 @@ import TechStack from "../components/TechStack";
 import Slider from "@site/src/components/Slider";
 import { ReactNebula } from "@flodlc/nebula";
 import styles from "./index.module.css";
-import Abp from "../../static/img/mainpageBK.png";
+import Abp from "@site/static/img/mainpageBK.png";
 // import Slider from "react-slick";
 //在头部引入css
 import "slick-carousel/slick/slick.css";
