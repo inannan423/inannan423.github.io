@@ -9,6 +9,7 @@ import TechStack from "../components/TechStack";
 import Slider from "@site/src/components/Slider";
 import { ReactNebula } from "@flodlc/nebula";
 import styles from "./index.module.css";
+import Abp from "../../static/img/mainpageBK.png";
 // import Slider from "react-slick";
 //在头部引入css
 import "slick-carousel/slick/slick.css";
@@ -72,10 +73,8 @@ function Bigimg() {
             href="https://github.com/inannan423/inannan423.github.io"
             target={"_blank"}
           >
-            {/* <img
-              className={clsx("starme", styles.starme)}
-              src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/starmeme.png"
-            /> */}
+            {/* <img className={clsx("starme", styles.starme)}
+          src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/starmeme.png" /> */}
             <StarMeButton />
           </a>
         </div>
@@ -110,10 +109,8 @@ function HomepageHeader() {
               href="https://github.com/inannan423/inannan423.github.io"
               target={"_blank"}
             >
-              {/* <img
-                className={clsx("starme", styles.starme)}
-                src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/starmeme.png"
-              /> */}
+              {/* <img className={clsx("starme", styles.starme)}
+            src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/starmeme.png" /> */}
               <StarMeButton className={clsx("newStar", styles.newStar)} />
             </a>
             <div className={clsx("circle", styles.circle)}></div>
@@ -123,7 +120,8 @@ function HomepageHeader() {
             <img className={clsx("side", styles.side)} src="img/sidepic.png" />
           </div>
         </div>
-        {/* <SimpleSlider/> */}
+        {/*
+    <SimpleSlider /> */}
       </div>
     </header>
   );
@@ -136,20 +134,15 @@ export default function Home() {
       title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
-      {/* <HomepageHeader /> */}
+      {/*
+  <HomepageHeader /> */}
 
       <main>
-        {/* <Bigimg /> */}
-        <img
-          src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/mainpageBk.png"
-          alt="Bkp"
-          className={clsx("BkImg", styles.BkImg)}
-        />
-        {/* <img
-          src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/DarkBK.png"
-          alt="Bkp"
-          className={clsx("DarkBkImg", styles.DarkBkImg)}
-        /> */}
+        {/*
+    <Bigimg /> */}
+        <img src={Abp} alt="Bkp" className={clsx("BkImg", styles.BkImg)} />
+        {/* <img src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/DarkBK.png" alt="Bkp"
+      className={clsx("DarkBkImg", styles.DarkBkImg)} /> */}
         <HomepageHeader />
         <About />
         <HomepageFeatures />
