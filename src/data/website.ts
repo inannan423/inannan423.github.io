@@ -119,6 +119,13 @@ export const websiteData: WebsiteCategory[] = [
         href: 'https://codesandbox.io/?from-app=1',
         tags: ['在线编码', '开发平台'],
       },
+      // {
+      //   name: 'stackblitz',
+      //   desc: '针对 Web 开发者的在线 IDE',
+      //   logo: 'https://c.staticblitz.com/assets/pwa-icon-f559737e5eae9b3544e5cc1291118bf758ee20873d496f1ce2052859fb3b72d6.png',
+      //   href: 'https://www.freecodecamp.org/',
+      //   tags: ['在线编码', '学习'],
+      // },
       {
         name: 'stackblitz',
         desc: '针对 Web 开发者的在线 IDE',
@@ -192,11 +199,19 @@ export const websiteData: WebsiteCategory[] = [
   {
     name: '前端其他',
     websites: [
+    
       {
         name: '前端学习路线',
         desc: '前端学习路线指导',
         logo: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/frontendlogo.png',
         href: 'https://objtube.github.io/front-end-roadmap/#/',
+        tags: ['前端'],
+      },
+      {
+        name: '前端学习',
+        desc: '前端学习指导',
+        logo: 'https://brucecai55520.gitee.io/bruceblog/img/logo.png',
+        href: 'https://brucecai55520.gitee.io/bruceblog/',
         tags: ['前端'],
       },
       {

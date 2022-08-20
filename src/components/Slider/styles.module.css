@@ -1,10 +1,10 @@
 .slick-slide {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .picbox {
     /* margin-top: 6rem; */
-    padding: 6rem;
+    padding: 10rem;
     /* background: rgb(245, 250, 255); */
     overflow: hidden;
 }

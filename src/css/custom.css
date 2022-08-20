@@ -25,7 +25,7 @@
   --ifm-color-primary-lighter: #61a5ff;
   --ifm-color-primary-lightest: #8fbfff;
   --ifm-color-primary-lightest-light: #8fc0ff44;
-  --ifm-navbar-background-color: rgba(255, 255, 255, 0.198);
+  --ifm-navbar-background-color: rgba(255, 255, 255, 0.092);
   /* --ifm-color-white:repeating-linear-gradient(-35deg,var(--ifm-color-primary-lighter),var(--ifm-color-primary-lighter) 20px,var(--ifm-color-primary-lightest) 10px,var(--ifm-color-primary-lightest) 40px); */
   /* --ifm-navbar-background-color:rgba(255, 255, 255, 0.955); */
   --ifm-code-font-size: 95%;

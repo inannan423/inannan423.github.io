@@ -132,12 +132,9 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
-    >
+    <Layout title={`${siteConfig.title}`} description="Jetzihan 个人博客">
       {/* <HomepageHeader /> */}
-
+      <meta name="baidu-site-verification" content="code-7UBxBuCkkt" />
       <main>
         {/* <Bigimg /> */}
         <img
