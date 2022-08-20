@@ -26,9 +26,9 @@ function HomePageIndex() {
         <div className={clsx("circleBottom", styles.circleBottom)}></div>
         <div className={clsx("circleBottom1", styles.circleBottom1)}></div>
         {/* <div className={clsx("circles", styles.circles)}></div> */}
-        <div className={clsx("stars", styles.stars)}></div>
+        {/* <div className={clsx("stars", styles.stars)}></div>
         <div className={clsx("stars2", styles.stars2)}></div>
-        <div className={clsx("stars3", styles.stars3)}></div>
+        <div className={clsx("stars3", styles.stars3)}></div> */}
         <span className={clsx("topword", styles.topword)}>
           Flying coding jet.
         </span>
@@ -93,9 +93,9 @@ function HomepageHeader() {
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className={clsx("mainpage", styles.mainpage)}>
-        <div className={clsx("stars", styles.stars)}></div>
+        {/* <div className={clsx("stars", styles.stars)}></div>
         <div className={clsx("stars2", styles.stars2)}></div>
-        <div className={clsx("stars3", styles.stars3)}></div>
+        <div className={clsx("stars3", styles.stars3)}></div> */}
         <div className={clsx("bigmax", styles.bigmax)}>
           <div className={clsx("leftside", styles.leftside)}>
             <span className={clsx("welword", styles.welword)}>
@@ -142,11 +142,11 @@ export default function Home() {
           alt="Bkp"
           className={clsx("BkImg", styles.BkImg)}
         />
-        {/* <img
-          src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/DarkBK.png"
+        <img
+          src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/10@4x.png"
           alt="Bkp"
           className={clsx("DarkBkImg", styles.DarkBkImg)}
-        /> */}
+        />
         <HomepageHeader />
         <About />
         <HomepageFeatures />

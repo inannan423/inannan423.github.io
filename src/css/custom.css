@@ -34,6 +34,7 @@
   --ifm-navbar-height: 4.25rem;
   --ifm-navbar-search-input-background-color: rgba(174, 171, 171, 0.198);
   --search-local-modal-width-sm: 200px;
+  --ifm-background-color: rgb(255, 255, 255);
   /* font-family: 'Noto Sans SC', sans-serif; */
 }
 
@@ -50,10 +51,11 @@
   --ifm-color-primary-lighter: #66a6fb;
   --ifm-color-primary-lightest: #93c0fc;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --ifm-navbar-background-color: rgb(23, 23, 23);
+  --ifm-navbar-background-color: rgb(0, 0, 0);
   --link-hero-color: rgb(102, 152, 179);
   --link-hero-color-bk: #51869d;
   --heroword: rgb(35, 36, 36);
+  --ifm-background-color: black !important;
 }
 
 iframe {

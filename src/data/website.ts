@@ -459,6 +459,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['Css', '教程'],
       },
       {
+        name: 'daisyUI',
+        desc: 'he most popular, free and open-source Tailwind CSS component library',
+        logo: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/juhua.png',
+        href: 'https://daisyui.com/',
+        tags: ['Css', '教程'],
+      },
+      {
         name: '神奇UI样式',
         desc: 'Universe of UI elements tohelp you stand out',
         logo: 'https://uiverse.io/static/media/framed.0ab7be76.svg',
