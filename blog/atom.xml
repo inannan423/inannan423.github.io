@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jetzihan.netlify.app/blog</id>
     <title>Jetzihan Blog</title>
-    <updated>2022-07-15T00:00:00.000Z</updated>
+    <updated>2022-08-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jetzihan.netlify.app/blog"/>
     <subtitle>Jetzihan Blog</subtitle>
     <icon>https://jetzihan.netlify.app/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[浅尝 DaisyUI]]></title>
+        <id>daily</id>
+        <link href="https://jetzihan.netlify.app/blog/daily"/>
+        <updated>2022-08-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[1]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20220820215257.png" alt="1" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="了解-daisyui">了解 DaisyUI<a class="hash-link" href="#了解-daisyui" title="Direct link to heading">​</a></h2><p><a href="https://daisyui.com/?lang=en" target="_blank" rel="noopener noreferrer">快速链接</a></p><p>根据其官网介绍，得知 DaisyUI 是最流行, 免费以及开源的 Tailwind CSS 组件库。它有下面的优点：</p><ul><li>Tailwind CSS 的插件</li><li>快速开发</li><li>更纯净的 HTML</li><li>深度自定义、可定制主题</li><li>纯净 CSS、支持任意框架（Vue、React、Angular等）</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="tailwind-css">Tailwind CSS<a class="hash-link" href="#tailwind-css" title="Direct link to heading">​</a></h3><p><img loading="lazy" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20220820215151.png" alt="1" class="img_ev3q">  </p><p><a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer">快速链接</a></p><p>Tailwind CSS是一个CSS样式库，它为我们提供了构建<strong>定制设计</strong>而无需使用自定义样式所需的所有构建块，在国外开发中十分流行。Tailwind 的组件十分有设计感，并且它在最新的2.0版本中加入了<strong>深色模式</strong>，开箱即用，无需配置。</p>]]></content>
+        <author>
+            <name>Chengzihan</name>
+            <uri>https://github.com/inannan423</uri>
+        </author>
+        <category label="前端" term="前端"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[前端发展概况介绍]]></title>
         <id>webfront</id>
