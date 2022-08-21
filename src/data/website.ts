@@ -296,6 +296,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['前端', 'React', '框架'],
       },
       {
+        name: 'Contentlayer',
+        desc: 'Nextjs的文档资源解析',
+        logo: 'https://www.contentlayer.dev/favicon/apple-touch-icon-57x57.png',
+        href: 'https://www.contentlayer.dev/',
+        tags: ['前端', 'React'],
+      },
+      {
         name: 'Ant Design',
         desc: '一套企业级 UI设计语言和 React 组件库',
         logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
