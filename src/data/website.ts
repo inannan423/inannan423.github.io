@@ -473,6 +473,20 @@ export const websiteData: WebsiteCategory[] = [
         tags: ['Css', '教程'],
       },
       {
+        name: 'Tailwind',
+        desc: '无需离开您的HTML，即可快速建立现代网站。',
+        logo: 'https://www.tailwindcss.cn/favicon-32x32.png',
+        href: 'https://www.tailwindcss.cn/',
+        tags: ['Css', '教程'],
+      },
+      {
+        name: 'Rellax',
+        desc: '纯js轻量级滚动视觉差特效插件。',
+        logo: 'https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20220824091151.png',
+        href: 'https://dixonandmoe.com/rellax/',
+        tags: ['Css', '教程'],
+      },
+      {
         name: '神奇UI样式',
         desc: 'Universe of UI elements tohelp you stand out',
         logo: 'https://uiverse.io/static/media/framed.0ab7be76.svg',
