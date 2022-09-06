@@ -79,7 +79,6 @@ const config = {
         showLastUpdateTime: true,
         breadcrumbs: false,
       },
-      
     ],
   ],
   themeConfig:
@@ -120,6 +119,10 @@ const config = {
             label: "Projects",
             position: "left",
             items: [
+              {
+                label: "Daymd",
+                to: "https://daymd.netlify.app/zh",
+              },
               {
                 label: "SVG-Board",
                 to: "/projects",
@@ -259,6 +262,10 @@ const config = {
           {
             title: "Projects",
             items: [
+              {
+                label: "Daymd",
+                href: "https://daymd.netlify.app/zh",
+              },
               {
                 label: "csspano",
                 href: "https://csspano.netlify.app",
