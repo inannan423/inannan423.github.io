@@ -1,0 +1,17 @@
+.hero {
+    align-items: center;
+    /* background-color: rgb(156, 212, 246); */
+    background: repeating-linear-gradient(-35deg,
+            var(--link-hero-color-bk), var(--link-hero-color-bk) 20px,
+            var(--link-hero-color) 10px, var(--link-hero-color) 40px);
+    color: var(--ifm-font-color-base-inverse);
+    display: flex;
+    padding: 2rem 2rem;
+}
+
+.heroTitle {
+    font-size: 2rem !important;
+    font-weight: 700;
+    line-height: 2rem;
+    color: #fff;
+}

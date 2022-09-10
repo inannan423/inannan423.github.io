@@ -155,6 +155,11 @@ const config = {
             to: "website",
           },
           {
+            label: "OnlineCoding",
+            position: "left",
+            to: "CodingOnline",
+          },
+          {
             href: "https://github.com/inannan423",
             // label: 'GitHub',
             position: "right",
