@@ -1,27 +1,3 @@
-// import React from "react";
-// import clsx from "clsx";
-// import Link from "@docusaurus/Link";
-// import { Sandpack } from "@codesandbox/sandpack-react";
-// import { sandpackDark } from "@codesandbox/sandpack-themes";
-// import Layout from "@theme/Layout";
-
-// const code = `export default function App() {
-//   return <h1>Hello Sandpack</h1>
-// }`;
-
-// export default function CodingOnline() {
-//   return (
-//     <Layout>
-//       <Sandpack
-//         template="react"
-//         theme={sandpackDark}
-//         files={{
-//           "/App.js": code,
-//         }}
-//       />
-//     </Layout>
-//   );
-// }
 import Layout from "@theme/Layout";
 import React, { useState } from "react";
 import * as themes from "@codesandbox/sandpack-themes";
@@ -29,17 +5,28 @@ import { Sandpack } from "@codesandbox/sandpack-react";
 import styles from "./coding.module.css";
 export default () => {
   const [current, setCurrent] = useState("sandpackDark");
+  const [Language, setLanguage] = useState("react");
 
   const codeBlock = `import { ${current} } from "@codesandbox/sandpack-themes";
 <Sandpack theme={${current}} />;`;
 
+  // var Language = "react";
+
   return (
     <Layout>
       <header className={styles.hero}>
-        <div className="container">
-          <label>
-            Coding Online
-            <br /> Theme:
+        <img
+          src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/sandpack.png"
+          alt="Coding"
+          style={{
+            height: "40px",
+            marginRight: "20px",
+          }}
+          className={styles.heroLogo}
+        />
+        <div className={styles.container}>
+          <div className={styles.slect}>
+            Theme
             <select
               style={{ marginLeft: ".5em" }}
               defaultValue="sandpackDark"
@@ -49,33 +36,45 @@ export default () => {
                 <option>{themeName}</option>
               ))}
             </select>
-          </label>
+          </div>
+          <div className={styles.slect}>
+            Template
+            <select
+              name="Template"
+              style={{ marginLeft: ".5em" }}
+              defaultValue="React"
+              onChange={(e) => setLanguage(e.target.value)}
+            >
+              <option>react</option>
+              <option>react-ts</option>
+              <option>vue</option>
+              <option>vue3</option>
+              <option>angular</option>
+              <option>vanilla</option>
+              <option>vanilla-ts</option>
+            </select>
+          </div>
         </div>
       </header>
-
-      <Sandpack
-        options={{
-          showLineNumbers: true,
-          showInlineErrors: true,
-          showNavigator: true,
-          showTabs: true,
-          closableTabs: true,
-          visibleFiles: [
-            "/App.js",
-            "/index.js",
-            "/public/index.html",
-            "/styles.css",
-          ],
-          size: 70,
-          showLineNumbers: false, // default - true
-          showInlineErrors: true, // default - false
-          wrapContent: true, // default - false
-          editorHeight: 600, // default - 300
-          editorWidthPercentage: 50, // default - 50
-        }}
-        template="react"
-        theme={themes[current]}
-      />
+      <div className={styles.sandbox}>
+        <Sandpack
+          options={{
+            showLineNumbers: true,
+            showInlineErrors: true,
+            showNavigator: true,
+            showTabs: true,
+            closableTabs: true,
+            visibleFiles: ["/index.js", "/public/index.html", "/styles.css"],
+            showLineNumbers: true, // default - true
+            showInlineErrors: true, // default - false
+            wrapContent: true, // default - false
+            editorHeight: 620, // default - 300
+            editorWidthPercentage: 60, // default - 50
+          }}
+          template={Language}
+          theme={themes[current]}
+        />
+      </div>
     </Layout>
   );
 };

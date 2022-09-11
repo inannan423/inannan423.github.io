@@ -1,9 +1,10 @@
 .hero {
     align-items: center;
     /* background-color: rgb(156, 212, 246); */
-    background: repeating-linear-gradient(-35deg,
-            var(--link-hero-color-bk), var(--link-hero-color-bk) 20px,
-            var(--link-hero-color) 10px, var(--link-hero-color) 40px);
+    height: 4rem;
+    background: repeating-linear-gradient(-45deg,
+            var(--link-hero-color), var(--link-hero-color) 20px,
+            var(--link-hero-color-bk) 10px, var(--link-hero-color-bk) 40px);
     color: var(--ifm-font-color-base-inverse);
     display: flex;
     padding: 2rem 2rem;
@@ -14,4 +15,83 @@
     font-weight: 700;
     line-height: 2rem;
     color: #fff;
+}
+
+.sp-preview-container {
+    border-radius: none !important;
+}
+
+.sp-layout {
+    border-radius: none !important;
+}
+
+.sandbox {
+    width: 100%;
+    /* background-color: black; */
+    /* margin-left: 1px; */
+}
+
+
+.slect {
+    width: 280px;
+    height: 40px;
+    border-radius: 5px;
+    /* box-shadow: 0 0 5px #ccc; */
+    /* background-color: rgba(255, 255, 255, 0.318); */
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-left: 30px;
+    font-weight: 800;
+}
+
+select {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-left: 30px;
+    background-color: rgba(210, 239, 255, 0.532);
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.slect:after {
+    content: "▼";
+    width: 16px;
+    height: 8px;
+    /* background: url(https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/uderpush1.png) no-repeat center; */
+    position: absolute;
+    right: 20px;
+    top: 6px;
+    color: rgb(0, 157, 255);
+    pointer-events: none;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero {
+        display: block;
+        height: 200px;
+        width: 100%;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .heroLogo {
+        margin-left: 70px;
+        margin-bottom: 10px;
+    }
 }

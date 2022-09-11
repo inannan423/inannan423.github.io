@@ -383,3 +383,16 @@ h1 {
   display: block;
   /* 修复交汇时出现的白块 */
 }
+
+.SandBoxButton {
+  /* background-color: var(--ifm-color-primary-bk) !important; */
+  background: linear-gradient(90deg, rgba(126, 225, 246, 1) 0%, rgba(21, 97, 251, 1) 100%);
+  border-radius: 10px;
+  color: white;
+  font-weight: 800;
+  transition: all 1s ease-in-out;
+}
+
+.SandBoxButton:hover {
+  background: linear-gradient(110deg, rgb(126, 224, 246) 0%, rgba(21, 98, 251, 0.369) 100%);
+}

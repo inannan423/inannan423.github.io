@@ -137,27 +137,16 @@ const config = {
               },
             ],
           },
-          // {
-          //   label: 'Tools',
-          //   position: 'left',
-          //   items: [
-          //   {
-          //     label: '玻璃生成器',
-          //     to: '/glassblur',
-          //   },
-          // ],
-          // },
-          // { to: 'toys', label: 'Toys', position: 'left' },
-          // { to: 'archive', label: 'Archive', position: 'right' },
           {
             label: "Links",
             position: "left",
             to: "website",
           },
           {
-            label: "OnlineCoding",
-            position: "left",
+            label: "Sandpack",
+            position: "right",
             to: "CodingOnline",
+            className: "SandBoxButton",
           },
           {
             href: "https://github.com/inannan423",
