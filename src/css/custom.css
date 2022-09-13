@@ -73,11 +73,19 @@ iframe {
 }
 
 .navbar {
+  box-shadow: none;
+  background-color: transparent;
+  transition: all .3s ease-in-out;
   backdrop-filter: blur(60px);
+  background-color: var(--ifm-navbar-background-color);
 }
+
+
 
 [data-theme='dark'] .navbar {
   backdrop-filter: blur(0px);
+  /* background-color: rgba(255, 255, 255, 0); */
+  transition: all .6s ease-in-out;
 }
 
 .navbar__title {
@@ -256,11 +264,7 @@ h1 {
   z-index: 10;
 }
 
-.navbar {
-  /* background-color: rgba(255, 255, 255, 0);
-  backdrop-filter: blur(0px) !important; */
-  /* box-shadow:var(--ifm-color-primary-dark) */
-}
+
 
 .navbar__search-input {
   background: var(--ifm-navbar-search-input-background-color) var(--ifm-navbar-search-input-icon) no-repeat 0.75rem center / 1rem 1rem;
@@ -394,5 +398,19 @@ h1 {
 }
 
 .SandBoxButton:hover {
-  background: linear-gradient(110deg, rgb(126, 224, 246) 0%, rgba(21, 98, 251, 0.369) 100%);
+  background: linear-gradient(110deg, rgb(126, 224, 246) 0%, rgb(120, 165, 255) 100%);
+}
+
+
+
+.onScroll {
+  background-color: var(--ifm-navbar-background-color);
+  box-shadow: var(--ifm-navbar-shadow);
+  backdrop-filter: blur(60px);
+}
+
+.noScroll {
+  background-color: transparent;
+  box-shadow: none;
+  backdrop-filter: blur(0px);
 }

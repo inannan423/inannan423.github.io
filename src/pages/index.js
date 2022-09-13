@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
@@ -130,6 +130,24 @@ function HomepageHeader() {
 }
 
 export default function Home() {
+  useEffect(() => {
+    const navbar = document.querySelector(".navbar");
+    function onScroll() {
+      // navbar.classList.add("onScroll");
+      if (window.scrollY === 0) {
+        navbar.classList.remove("onScroll");
+        navbar.classList.add("noScroll");
+        // console.log("remove");
+      } else {
+        navbar.classList.add("onScroll");
+        navbar.classList.remove("noScroll");
+        // console.log("add");
+      }
+    }
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout title={`${siteConfig.title}`} description="Jetzihan 个人博客">
@@ -138,7 +156,7 @@ export default function Home() {
       <main>
         {/* <Bigimg /> */}
         <img
-          src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/mainpageBk.png"
+          src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/colorback.png"
           alt="Bkp"
           className={clsx("BkImg", styles.BkImg)}
         />
