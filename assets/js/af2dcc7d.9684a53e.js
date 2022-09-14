@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjetzihan=self.webpackChunkjetzihan||[]).push([[7051],{3046:a=>{a.exports=JSON.parse('{"label":"Unity","permalink":"/blog/tags/unity","allTagsPath":"/blog/tags","count":1}')}}]);
