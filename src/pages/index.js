@@ -13,7 +13,7 @@ import styles from "./index.module.css";
 //在头部引入css
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import Parallax from "react-rellax";
 // 新首页
 
 function HomePageIndex() {
@@ -96,33 +96,38 @@ function HomepageHeader() {
         {/* <div className={clsx("stars", styles.stars)}></div>
         <div className={clsx("stars2", styles.stars2)}></div>
         <div className={clsx("stars3", styles.stars3)}></div> */}
-        <div className={clsx("bigmax", styles.bigmax)}>
-          <div className={clsx("leftside", styles.leftside)}>
-            <span className={clsx("welword", styles.welword)}>
-              Flying code jet.
-            </span>
-            <br />
-            <span className={clsx("welword1", styles.welword1)}>
-              Hello, welcome to coding jet, this is where I record my learning
-              and I aspire to be a front-end magician.
-            </span>
-            <a
-              href="https://github.com/inannan423/inannan423.github.io"
-              target={"_blank"}
-            >
-              {/* <img
+        <Parallax speed={10}>
+          <div className={clsx("bigmax", styles.bigmax)}>
+            <div className={clsx("leftside", styles.leftside)}>
+              <span className={clsx("welword", styles.welword)}>
+                Flying code jet.
+              </span>
+              <br />
+              <span className={clsx("welword1", styles.welword1)}>
+                Hello, welcome to coding jet, this is where I record my learning
+                and I aspire to be a front-end magician.
+              </span>
+              <a
+                href="https://github.com/inannan423/inannan423.github.io"
+                target={"_blank"}
+              >
+                {/* <img
                 className={clsx("starme", styles.starme)}
                 src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/starmeme.png"
               /> */}
-              <StarMeButton className={clsx("newStar", styles.newStar)} />
-            </a>
-            <div className={clsx("circle", styles.circle)}></div>
-            <div className={clsx("circles", styles.circles)}></div>
+                <StarMeButton className={clsx("newStar", styles.newStar)} />
+              </a>
+            </div>
+            <div className={clsx("sidepic", styles.sidepic)}>
+              <img
+                className={clsx("side", styles.side)}
+                src="img/sidepic.png"
+              />
+            </div>
           </div>
-          <div className={clsx("sidepic", styles.sidepic)}>
-            <img className={clsx("side", styles.side)} src="img/sidepic.png" />
-          </div>
-        </div>
+        </Parallax>
+        <div className={clsx("circle", styles.circle)}></div>
+        <div className={clsx("circles", styles.circles)}></div>
         {/* <SimpleSlider/> */}
       </div>
     </header>
