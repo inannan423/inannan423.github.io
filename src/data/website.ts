@@ -610,6 +610,38 @@ export const websiteData: WebsiteCategory[] = [
     ],
   },
   {
+    name: "游戏开发",
+    websites: [
+      {
+        name: "Unity",
+        desc: "Unity官网",
+        logo: "https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20220914083818.png",
+        href: "https://unity.com/",
+      },
+      // Unity 中文文档
+      {
+        name: "Unity 中文文档",
+        desc: "Unity 中文文档",
+        logo: "https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20220914083818.png",
+        href: "https://docs.unity.cn/cn/current/Manual/index.html",
+      },
+      // C#
+      {
+        name: "C#",
+        desc: "C#官方文档",
+        logo: "https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20220914084105.png",
+        href: "https://docs.microsoft.com/zh-cn/dotnet/csharp/",
+      },
+      // unity asset store
+      {
+        name: "unity asset store",
+        desc: "unity 模型商店",
+        logo: "https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20220914083818.png",
+        href: "https://assetstore.unity.com/",
+      },
+    ],
+  },
+  {
     name: "设计",
     websites: [
       {
