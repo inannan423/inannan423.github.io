@@ -49,6 +49,41 @@ function About() {
   );
 }
 
+function Announce() {
+  return (
+    <>
+      <div className={clsx("announce", styles.announce)}>
+        <div className={clsx("announceBox", styles.announceBox)}>
+          {/* <img
+            src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/icon-dengpao-light.svg"
+            alt="ICON"
+            className={clsx("dengapo", styles.dengapo)}
+          /> */}
+          <div className={clsx("announceTitle", styles.announceTitle)}>
+            <span>
+              🌊 如果我的网站帮到您，请在{" "}
+              <a
+                target={"_blank"}
+                href="https://github.com/inannan423/inannan423.github.io"
+              >
+                GitHub
+              </a>{" "}
+              给它一个 ⭐
+            </span>
+            {/* <div style={{ marginLeft: "25px" }}>
+              <svg viewBox="0 0 15 15" width="12" height="12">
+                <g stroke="currentColor" stroke-width="3.1">
+                  <path d="M.75.75l13.5 13.5M14.25.75L.75 14.25"></path>
+                </g>
+              </svg>
+            </div> */}
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
 function Bigimg() {
   return (
     // <div className={clsx("BigimgBox", styles.BigimgBox)}>
@@ -171,10 +206,11 @@ export default function Home() {
           className={clsx("DarkBkImg", styles.DarkBkImg)}
         />
         <HomepageHeader />
+
         <About />
         <HomepageFeatures />
         <TechStack />
-
+        <Announce />
         <Slider />
         <HomePageIndex />
       </main>

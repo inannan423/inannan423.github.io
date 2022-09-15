@@ -37,6 +37,7 @@
 
  .mainpage {
    overflow: hidden;
+   z-index: 3;
    /* background-image: url('https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/mainpageBk.png'); */
  }
 
@@ -605,6 +606,8 @@
      }
    }
 
+
+
    .TXT1 {
      display: flex;
      justify-content: center;
@@ -694,6 +697,8 @@
      padding: 2rem;
    }
  }
+
+
 
  .buttons {
    display: flex;
@@ -806,6 +811,8 @@
 
    }
 
+
+
    /* 左侧模块 */
    .leftside {
      width: 100%;
@@ -849,6 +856,10 @@
    .newStar {
      display: none;
    }
+
+   .announce {
+     display: none !important;
+   }
  }
 
  .circle {
@@ -862,7 +873,7 @@
    position: fixed;
    animation: heartbeat 3s infinite;
    filter: blur(80px);
-   /* z-index: -1; */
+   z-index: -1;
  }
 
  [data-theme='dark'] .circle {
@@ -881,7 +892,7 @@
    position: fixed;
    animation: heartbeat 3s infinite;
    filter: blur(80px);
-   /* z-index: -1; */
+   z-index: -1;
  }
 
  /* [data-theme='dark'] .circles {
@@ -1208,5 +1219,55 @@
    60%,
    80% {
      width: 100%;
+   }
+ }
+
+ .announce {
+   position: fixed;
+   bottom: 10px;
+   margin: 0 auto;
+   display: flex;
+   width: 100%;
+   height: 60px;
+   z-index: 100;
+ }
+
+ .announceBox {
+   /* margin: 0 auto; */
+   position: relative;
+   left: 3rem;
+   width: max-content;
+   height: 50px;
+   background-color: #6488ff5d;
+   border-radius: 10px;
+   display: flex;
+   padding: 10px;
+   /* justify-content: center; */
+   align-items: center;
+   /* font-family: 'Times New Roman', Times, serif; */
+   border: #6488ff 3px solid;
+   backdrop-filter: blur(20px);
+   animation: bounceInLeftAno 1s ease-in-out;
+   /* animation-delay: 3s; */
+ }
+
+ .announceTitle {
+   font-size: 16px;
+   display: flex;
+ }
+
+ .dengapo {
+   height: 35px;
+ }
+
+ @keyframes bounceInLeftAno {
+   0% {
+     opacity: 0;
+     transform: translate3d(-3000px, 0, 0);
+   }
+
+   100% {
+     opacity: 1;
+     transform: translate3d(0px, 0, 0);
    }
  }

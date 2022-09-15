@@ -414,3 +414,7 @@ h1 {
   box-shadow: none;
   backdrop-filter: blur(0px);
 }
+
+.navbar-sidebar {
+  z-index: 10000 !important;
+}
