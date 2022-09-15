@@ -32,7 +32,7 @@ export const Friends: Friend[] = [
     description: "Me the man handsome so much(?)",
     avatar:
       "https://tva4.sinaimg.cn/large/b447be47ly1h4uqtlstu7j20ht0hcwgh.jpg",
-    website: "https://jiechuqingnianoyy.vercel.app/",
+    website: "https://jiechuqingnianoyy.netlify.app/",
   },
   {
     title: "派兹的小站",
