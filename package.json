@@ -1,6 +1,6 @@
 {
   "name": "jetzihan",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
@@ -16,10 +16,10 @@
   "dependencies": {
     "@codesandbox/sandpack-react": "^1.7.2",
     "@codesandbox/sandpack-themes": "^1.6.0",
-    "@docusaurus/core": "2.0.0-beta.22",
-    "@docusaurus/plugin-content-blog": "^2.0.0-beta.22",
-    "@docusaurus/preset-classic": "2.0.0-beta.22",
-    "@docusaurus/theme-live-codeblock": "^2.0.0-beta.22",
+    "@docusaurus/core": "2.1.0",
+    "@docusaurus/plugin-content-blog": "2.1.0",
+    "@docusaurus/preset-classic": "2.1.0",
+    "@docusaurus/theme-live-codeblock": "^2.1.0",
     "@easyops-cn/docusaurus-search-local": "^0.29.0",
     "@flodlc/nebula": "^1.0.56",
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
@@ -46,7 +46,7 @@
     "wowjs": "^1.1.3"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "2.0.0-beta.22"
+    "@docusaurus/module-type-aliases": "2.1.0"
   },
   "browserslist": {
     "production": [

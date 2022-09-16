@@ -64,13 +64,27 @@ export default () => {
             showNavigator: true,
             showTabs: true,
             closableTabs: true,
-            visibleFiles: ["/index.js", "/public/index.html", "/styles.css"],
+            visibleFiles: [
+              "/index.js",
+              "/public/index.html",
+              "/styles.css",
+              "/App.js",
+              // "/button.js",
+            ],
             showLineNumbers: true, // default - true
             showInlineErrors: true, // default - false
             wrapContent: true, // default - false
             editorHeight: 620, // default - 300
             editorWidthPercentage: 60, // default - 50
           }}
+          // files={{
+          //   "/App.js": `...`,
+          //   "/button.js": `...`,
+          //   "/link.js": {
+          //     code: `...`,
+          //     hidden: true,
+          //   },
+          // }}
           template={Language}
           theme={themes[current]}
         />
