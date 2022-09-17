@@ -54,11 +54,6 @@ function Announce() {
     <>
       <div className={clsx("announce", styles.announce)}>
         <div className={clsx("announceBox", styles.announceBox)}>
-          {/* <img
-            src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/icon-dengpao-light.svg"
-            alt="ICON"
-            className={clsx("dengapo", styles.dengapo)}
-          /> */}
           <div className={clsx("announceTitle", styles.announceTitle)}>
             <span>
               🌊 如果我的网站帮到您，请在{" "}

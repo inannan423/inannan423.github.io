@@ -498,6 +498,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: ["Css", "教程"],
       },
       {
+        name: "CSSFX",
+        desc: "Beautifully simple click-to-copy CSS effects",
+        logo: "https://cssfx.netlify.app/logo.png",
+        href: "https://cssfx.netlify.app/",
+        tags: ["Css", "教程"],
+      },
+      {
         name: "CSS-Inspiration",
         desc: "CSS灵感",
         logo: "https://csscoco.com/inspiration/images/logo2.png",

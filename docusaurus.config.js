@@ -297,7 +297,6 @@ const config = {
             ],
           },
         ],
-        // copyright: `<br/> Copyright © ${new Date().getFullYear()} Made with ❤ by Chengzihan. <br> Powered by Docusaurus. | MIT LICENSE`,
       },
       prism: {
         theme: require("prism-react-renderer/themes/dracula"),
