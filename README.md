@@ -1,39 +1,27 @@
-# Website
+## 个人网站
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+![img.png](https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/hello_github_repo.png)
 
-### Installation
+🎈**[在线演示](https://jetzihan.netlify.app)**
 
-```
-yarn
-```
+## 技术栈
 
-### Local Development
+Powered by [docusaurus](https://docusaurus.io/) and [Netlify](https://www.netlify.com/)
 
-```
-yarn start
-```
+## Install
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-yarn build
+```bash
+npm install
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## Run
 
-### Deployment
-
-Using SSH:
-
-```
-USE_SSH=true yarn deploy
+```bash
+npm start
 ```
 
-Not using SSH:
+## Build
 
-```
-GIT_USER=<Your GitHub username> yarn deploy
+```bash
+npm run build
 ```

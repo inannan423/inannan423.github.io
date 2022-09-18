@@ -205,6 +205,10 @@ const config = {
                 label: "Blog",
                 to: "/blog",
               },
+              {
+                label: "Sandpack",
+                to: "/CodingOnline",
+              },
             ],
           },
           {
