@@ -54,6 +54,14 @@ const config = {
         },
       }),
     ],
+    // [
+    //   "./src/presets/docusaurus-preset-multi-docs.js",
+    //   {
+    //     theme: { hello: "world" },
+    //     docs1: { path: "docs/FrontEnd" },
+    //     docs2: { path: "docs/BackEnd" },
+    //   },
+    // ],
   ],
   themes: [
     //在线编码插件
