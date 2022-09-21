@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjetzihan=self.webpackChunkjetzihan||[]).push([[4580],{5838:a=>{a.exports=JSON.parse('{"label":"\u722c\u866b","permalink":"/blog/tags/\u722c\u866b","allTagsPath":"/blog/tags","count":1}')}}]);
