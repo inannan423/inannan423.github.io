@@ -35,6 +35,7 @@
   --ifm-navbar-search-input-background-color: rgba(174, 171, 171, 0.198);
   --search-local-modal-width-sm: 200px;
   --ifm-background-color: rgb(255, 255, 255);
+  --maincolor: rgba(255, 255, 255, 0.886);
   /* font-family: 'Noto Sans SC', sans-serif; */
 }
 
@@ -56,6 +57,7 @@
   --link-hero-color-bk: #51869d;
   --heroword: rgb(35, 36, 36);
   --ifm-background-color: black !important;
+  --maincolor: rgba(0, 0, 0, 0.699);
 }
 
 iframe {
@@ -64,6 +66,20 @@ iframe {
   /* background-image: repeating-linear-gradient(60deg, rgb(111, 170, 247), rgb(0, 74, 94) 15px, rgba(0, 94, 93, 0.5) 0, rgba(0, 94, 93, 0.5) 30px); */
   background-color: var(--ifm-color-primary-lightest-light);
   /* box-shadow: ; */
+}
+
+.navbar-sidebar__item.menu {
+  background-color: var(--maincolor);
+}
+
+.navbar-sidebar__brand {
+  background-color: var(--maincolor);
+}
+
+.navbar-sidebar--show .navbar-sidebar,
+.navbar-sidebar--show .navbar-sidebar {
+  height: 100vh !important;
+  background-color: var(--ifm-navbar-background-color);
 }
 
 .time {
