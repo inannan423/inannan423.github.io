@@ -41,6 +41,12 @@ export const Friends: Friend[] = [
     website: "https://pizzel.me/",
   },
   {
+    title: "CYwal",
+    description: "swfoodt's blog",
+    avatar: "https://cywal.netlify.app/img/Cylogo.png",
+    website: "https://cywal.netlify.app/",
+  },
+  {
     title: "XBan",
     description: "Just an ordinary BLEACH FAN",
     avatar: "https://s2.loli.net/2022/07/30/ENgfwdO1VpoWjKJ.png",
