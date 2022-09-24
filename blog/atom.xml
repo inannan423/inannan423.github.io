@@ -8,7 +8,7 @@
     <subtitle>Jetzihan Blog</subtitle>
     <icon>https://jetzihan.netlify.app/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[使用 GitHub Actions 自动北林报平安]]></title>
+        <title type="html"><![CDATA[使用 GitHub Actions 自动报平安]]></title>
         <id>rpeace</id>
         <link href="https://jetzihan.netlify.app/blog/rpeace"/>
         <updated>2022-09-24T00:00:00.000Z</updated>
