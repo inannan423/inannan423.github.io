@@ -44,6 +44,8 @@ const config = {
 
         blog: {
           showReadingTime: true,
+          blogSidebarTitle: "Blogs",
+          blogSidebarCount: "ALL",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:

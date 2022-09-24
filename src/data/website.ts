@@ -343,6 +343,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: ["轮播图", "React"],
       },
       {
+        name: "React Native Navigation",
+        desc: "React导航插件",
+        logo: "https://reactnavigation.org/img/spiro.svg",
+        href: "https://reactnavigation.org/",
+        tags: ["React"],
+      },
+      {
         name: "Electron",
         desc: "使用 JavaScript ，HTML 和 CSS 构建跨平台的桌面应用程序",
         logo: "https://github.githubassets.com/images/icons/emoji/electron.png",
@@ -619,6 +626,13 @@ export const websiteData: WebsiteCategory[] = [
         desc: "数据结构可视化。",
         logo: "https://algorithm-visualizer.org/favicon.png",
         href: "https://algorithm-visualizer.org/",
+        tags: ["编程"],
+      },
+      {
+        name: "postprocessing",
+        desc: "React 图像插件",
+        logo: "https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20220922230232.png",
+        href: "https://docs.pmnd.rs/react-postprocessing/introduction",
         tags: ["编程"],
       },
     ],
