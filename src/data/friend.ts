@@ -32,7 +32,7 @@ export const Friends: Friend[] = [
     description: "Me the man handsome so much(?)",
     avatar:
       "https://tva4.sinaimg.cn/large/b447be47ly1h4uqtlstu7j20ht0hcwgh.jpg",
-    website: "https://jiechuqingnianoyy.netlify.app/",
+    website: "https://anticounter.netlify.app/",
   },
   {
     title: "派兹的小站",
@@ -43,8 +43,8 @@ export const Friends: Friend[] = [
   {
     title: "CYwal",
     description: "swfoodt's blog",
-    avatar: "https://cywal.netlify.app/img/Cylogo.png",
-    website: "https://cywal.netlify.app/",
+    avatar: "https://swfoodt.netlify.app/img/Cylogo.png",
+    website: "https://swfoodt.netlify.app/",
   },
   {
     title: "XBan",
