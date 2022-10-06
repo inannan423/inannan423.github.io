@@ -188,6 +188,13 @@ export const websiteData: WebsiteCategory[] = [
         tags: ["代码托管"],
       },
       {
+        name: "railway",
+        desc: "代码自动部署（很强大）",
+        logo: "https://railway.app/brand/logo-dark.png",
+        href: "https://railway.app/",
+        tags: ["代码托管"],
+      },
+      {
         name: "Coding",
         desc: "国内的代码托管",
         logo: "https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/coding.png",
