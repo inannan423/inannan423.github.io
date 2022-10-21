@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjetzihan=self.webpackChunkjetzihan||[]).push([[1301],{61502:a=>{a.exports=JSON.parse('{"label":"GitHub Actions","permalink":"/blog/tags/git-hub-actions","allTagsPath":"/blog/tags","count":2}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjetzihan=self.webpackChunkjetzihan||[]).push([[8093],{29054:e=>{e.exports=JSON.parse('{"label":"three.js","permalink":"/docs/tags/three-js","allTagsPath":"/docs/tags","count":1,"items":[{"id":"Notes/computergraphics/first","title":"\u6982\u8bba","description":"","permalink":"/docs/Notes/computergraphics/first"}]}')}}]);

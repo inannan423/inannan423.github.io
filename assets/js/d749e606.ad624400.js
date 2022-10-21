@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjetzihan=self.webpackChunkjetzihan||[]).push([[8698],{26690:e=>{e.exports=JSON.parse('{"label":"WebGL","permalink":"/blog/tags/web-gl","allTagsPath":"/blog/tags","count":1}')}}]);

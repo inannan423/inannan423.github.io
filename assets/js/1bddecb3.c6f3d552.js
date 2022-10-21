@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjetzihan=self.webpackChunkjetzihan||[]).push([[8191],{9499:a=>{a.exports=JSON.parse('{"label":"EasyX","permalink":"/blog/tags/easy-x","allTagsPath":"/blog/tags","count":1}')}}]);

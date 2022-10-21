@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjetzihan=self.webpackChunkjetzihan||[]).push([[5616],{50978:a=>{a.exports=JSON.parse('{"label":"workflows","permalink":"/blog/tags/workflows","allTagsPath":"/blog/tags","count":1}')}}]);

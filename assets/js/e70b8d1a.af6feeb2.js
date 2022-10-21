@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjetzihan=self.webpackChunkjetzihan||[]).push([[757],{2012:e=>{e.exports=JSON.parse('{"label":"Vuejs","permalink":"/blog/tags/vuejs","allTagsPath":"/blog/tags","count":1}')}}]);

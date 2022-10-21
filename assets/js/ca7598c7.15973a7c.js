@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjetzihan=self.webpackChunkjetzihan||[]).push([[9633],{1364:a=>{a.exports=JSON.parse('{"label":"C/C++","permalink":"/blog/tags/c-c","allTagsPath":"/blog/tags","count":1}')}}]);

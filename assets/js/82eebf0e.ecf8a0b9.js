@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjetzihan=self.webpackChunkjetzihan||[]).push([[7495],{4959:e=>{e.exports=JSON.parse('{"label":"codefun","permalink":"/blog/tags/codefun","allTagsPath":"/blog/tags","count":1}')}}]);

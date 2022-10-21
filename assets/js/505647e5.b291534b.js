@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjetzihan=self.webpackChunkjetzihan||[]).push([[9881],{56795:e=>{e.exports=JSON.parse('{"label":"WebGL","permalink":"/docs/tags/web-gl","allTagsPath":"/docs/tags","count":1,"items":[{"id":"Notes/computergraphics/first","title":"\u6982\u8bba","description":"","permalink":"/docs/Notes/computergraphics/first"}]}')}}]);
