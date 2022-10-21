@@ -1,8 +1,8 @@
 {
-  "label": "数字视频处理",
+  "label": "计算机图形学",
   "position": 5,
   "link": {
     "type": "generated-index",
-    "description": "数字视频处理"
+    "description": "Computer Graphics"
   }
 }

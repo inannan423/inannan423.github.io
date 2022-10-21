@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1d66c32-0250-47f9-9bbe-ccb45c6d72d7" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/docs/FrontEnd/09.threejs/01.threebase.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Notes/02.digitalMediaBasis/07.第七章-多媒体信息检索.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Notes/02.digitalMediaBasis/07.第七章-多媒体信息检索.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/2022-10-18-threejs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/BackEnd/MySql/02.xulun.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/BackEnd/MySql/_category_.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/BackEnd/MySql/_category_.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/FrontEnd/09.threejs/01.threebase.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/FrontEnd/09.threejs/02.geometry.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/FrontEnd/09.threejs/_category_.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Notes/05.computergraphics/01.first.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Notes/05.computergraphics/01.first.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Notes/05.computergraphics/_category_.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Notes/05.computergraphics/_category_.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +45,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.配色方案字体",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -53,7 +60,10 @@
       <workItem from="1665233259613" duration="120000" />
       <workItem from="1665586948234" duration="275000" />
       <workItem from="1665619213951" duration="289000" />
-      <workItem from="1665619653187" duration="4953000" />
+      <workItem from="1665619653187" duration="7165000" />
+      <workItem from="1666074120010" duration="2356000" />
+      <workItem from="1666230056781" duration="3925000" />
+      <workItem from="1666243145775" duration="2503000" />
     </task>
     <servers />
   </component>

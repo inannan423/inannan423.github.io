@@ -474,7 +474,7 @@ export const websiteData: WebsiteCategory[] = [
     ],
   },
   {
-    name: "CSS",
+    name: "CSS和UI",
     websites: [
       {
         name: "CSS参考-MDN",
@@ -565,6 +565,20 @@ export const websiteData: WebsiteCategory[] = [
         desc: "css效果可视化编辑器:玻璃、拟物",
         logo: "https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20220816084636.png",
         href: "http://santhoshsivan.com/toolbox.html",
+        tags: ["css"],
+      },
+      {
+        name: "NextUI",
+        desc: "超好看的组件库",
+        logo: "https://nextui.org/favicon-32x32.png",
+        href: "https://nextui.org/",
+        tags: ["css"],
+      },
+      {
+        name: "react-iconly",
+        desc: "icon",
+        logo: "https://react-iconly.jrgarciadev.com/favicon-32x32.png",
+        href: "https://react-iconly.jrgarciadev.com/",
         tags: ["css"],
       },
     ],

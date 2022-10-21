@@ -38,7 +38,7 @@ export const Friends: Friend[] = [
     title: "派兹的小站",
     description: "Just Some Memories",
     avatar: "https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/zdtxi.svg",
-    website: "https://pizzel.me/",
+    website: "https://sakkana.me/",
   },
   {
     title: "CYwal",
