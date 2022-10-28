@@ -20,7 +20,7 @@
 <a href="https://cloud.tencent.com/document/product/1154/40495" target="_blank" rel="noopener noreferrer">腾讯云 Serverless 部署Flask接口</a><br>
 <a href="https://www.cnblogs.com/sdadx/p/10360208.html" target="_blank" rel="noopener noreferrer">Ubuntu Nginx 部署 Flask 接口</a><br>
 <a href="https://blog.csdn.net/weixin_44406200/article/details/104117583" target="_blank" rel="noopener noreferrer">Windows Nginx 部署 Flask 接口</a><br>
-<a href="https://dev.to/andrewbaisden/how-to-deploy-a-python-flask-app-to-vercel-2o5k" target="_blank" rel="noopener noreferrer">Vercel 部署 Flask 接口</a></p>]]></content:encoded>
+<a href="https://dev.to/andrewbaisden/how-to-deploy-a-python-flask-app-to-vercel-2o5k" target="_blank" rel="noopener noreferrer">Vercel 部署 Flask 接口</a></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="开源源代码">开源源代码<a class="hash-link" href="#开源源代码" title="Direct link to heading">​</a></h2><p><a href="https://github.com/inannan423/flask-mongodb-web" target="_blank" rel="noopener noreferrer">GitHub</a></p>]]></content:encoded>
             <category>Flask</category>
             <category>MongoDB</category>
         </item>
