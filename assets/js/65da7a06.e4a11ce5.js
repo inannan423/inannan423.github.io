@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjetzihan=self.webpackChunkjetzihan||[]).push([[1031],{92379:a=>{a.exports=JSON.parse('{"label":"Flask","permalink":"/blog/tags/flask","allTagsPath":"/blog/tags","count":1}')}}]);
