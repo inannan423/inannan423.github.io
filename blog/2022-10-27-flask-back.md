@@ -421,6 +421,10 @@ def getclass():
 [Windows Nginx 部署 Flask 接口](https://blog.csdn.net/weixin_44406200/article/details/104117583)  
 [Vercel 部署 Flask 接口](https://dev.to/andrewbaisden/how-to-deploy-a-python-flask-app-to-vercel-2o5k)
 
+## 开源源代码
+
+[GitHub](https://github.com/inannan423/flask-mongodb-web)
+
 <!-- ## 腾讯云部署 Flask
 
 ### 注册
