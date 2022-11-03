@@ -170,63 +170,30 @@ public class Move2 : MonoBehaviour
 
 当然，也可以在 Project 设置中直接修改脚本执行顺序。
 
-## 预制体
+## 常用脚本
 
-当某个相同结构的物体会出现多次时，我们可以把这个物体转化为预制体，方法是将模型从层级窗口拖拽到项目窗口中。修改这个预设体，场景中的所有这个物体都会改变。  
+### 响应键盘
 
-![2](https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/1663119628034.png)
-
-同时可以将这个预制体导出。
-
-## Vector
-
-创建 Vector 脚本。  
-`Vector3` 中的 `x`、`y`、`z` 分别表示向量的三个分量。  
-
-```cpp
-// 初始化值，从 (0,0,0) 指向 (1,2,3) 的一个向量。
-vector3 = new Vector3(1, 2, 3);
+```c#
+// 键盘按下 W A S D 时，相机沿着对应的方向移动
+if (Input.GetKey(KeyCode.W))
+{
+    character.transform.Translate(Vector3.forward * Time.deltaTime * 10);
+}
+if (Input.GetKey(KeyCode.A))
+{
+    character.transform.Translate(Vector3.left * Time.deltaTime * 10);
+}
+if (Input.GetKey(KeyCode.S))
+{
+    character.transform.Translate(Vector3.back * Time.deltaTime * 10);
+}
+if (Input.GetKey(KeyCode.D))
+{
+    character.transform.Translate(Vector3.right * Time.deltaTime * 10);
+}
 ```
 
-下面是一些常用的向量计算：  
+### 游戏物体在有重力时不会掉下去
 
-```cpp
-Vector3 v = new Vector3(1, 1, 1);
-// 也可以快捷拿到
-v=Vector3.zero;// 0 0 0
-v=Vector3.back;// 0 0 -1
-v=Vector3.left;// -1 0 0
-
-Vector3 v1=Vector3.right;
-// 计算两个向量夹角
-Debug.Log(Vector3.Angle(v, v1));
-// 距离
-Debug.Log(Vector3.Distance(v,v1));
-// 点乘
-Debug.Log(message:Vector3.Dot(v,v1));
-// 叉乘
-Debug.Log(Vector3.Cross(v,v1));
-// 插值，在向量之间做比例计算
-Debug.Log(Vector3.Lerp(Vector3.zero,Vector3.left, 0.5f));
-// 模
-Debug.Log(v.magnitude);
-// 规范化
-Debug.Log(v.normalized);
-```
-
-## 四元数
-
-创建一个 Rotate 脚本。常见使用：  
-
-```cpp
-// 旋转：欧拉角
-Vector3 rotate = new Vector3(0, 0, 1);
-Quaternion quaternion = Quaternion.identity;// 无旋转的四元数
-quaternion=Quaternion.Euler(rotate);// 通过欧拉角创建四元数
-// 看向一个物体
-quaternion=Quaternion.LookRotation(new Vector3(0,0,0));// 看向原点
-// 四元数转欧拉角
-Vector3 euler = quaternion.eulerAngles;
-```
-
-## 获取脚本所挂载的游戏物体
+在物体组件中添加 `Box Collider` 组件，然后在 `Box Collider` 组件中勾选 `Is Trigger`。在下面修改包围盒参数，使其与物体大小一致。
