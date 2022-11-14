@@ -1,0 +1,8 @@
+{
+  "label": "RESTful API",
+  "position": 9,
+  "link": {
+    "type": "generated-index",
+    "description": "REST 是 Representational State Transfer 的缩写，如果一个架构符合 REST 原则，就称它为 RESTful 架构.RESTful 架构可以充分的利用 HTTP 协议的各种功能，是 HTTP 协议的最佳实践.RESTful API 是一种软件架构风格、设计风格，可以让软件更加清晰，更简洁，更有层次，可维护性更好"
+  }
+}

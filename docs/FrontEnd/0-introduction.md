@@ -23,6 +23,9 @@ keywords:
 - css
 - Nodejs
 - 微信小程序
+- RESTful API
+- three.js
+- Vue
 
 待学的东西很多，不妨慢慢来。
 
