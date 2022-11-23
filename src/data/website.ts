@@ -75,7 +75,7 @@ export const websiteData: WebsiteCategory[] = [
   //   ],
   // },
   {
-    name: "工具",
+    name: "杂项",
     websites: [
       {
         // developer roadmap
@@ -126,13 +126,6 @@ export const websiteData: WebsiteCategory[] = [
         href: "https://codesandbox.io/?from-app=1",
         tags: ["在线编码", "开发平台"],
       },
-      // {
-      //   name: 'stackblitz',
-      //   desc: '针对 Web 开发者的在线 IDE',
-      //   logo: 'https://c.staticblitz.com/assets/pwa-icon-f559737e5eae9b3544e5cc1291118bf758ee20873d496f1ce2052859fb3b72d6.png',
-      //   href: 'https://www.freecodecamp.org/',
-      //   tags: ['在线编码', '学习'],
-      // },
       {
         name: "stackblitz",
         desc: "针对 Web 开发者的在线 IDE",
@@ -154,13 +147,13 @@ export const websiteData: WebsiteCategory[] = [
         href: "https://translate.volcengine.com/",
         tags: ["工具"],
       },
-      // {
-      //   name: ' JsonT.run',
-      //   desc: '一个简洁的在线 JSON 解析器',
-      //   logo: 'https://www.jsont.run/favicon.ico',
-      //   href: 'https://www.jsont.run/',
-      //   tags: ['工具'],
-      // },
+      {
+        name: "Deepl",
+        desc: "全世界最精准的机器翻译",
+        logo: "https://static.deepl.com/img/logo/deepl-logo-blue.svg",
+        href: "https://www.deepl.com/translator",
+        tags: ["工具"],
+      },
     ],
   },
   {
@@ -691,7 +684,7 @@ export const websiteData: WebsiteCategory[] = [
     ],
   },
   {
-    name: "设计",
+    name: "设计资源",
     websites: [
       {
         name: "DECO",
