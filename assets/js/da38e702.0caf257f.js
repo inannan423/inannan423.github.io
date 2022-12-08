@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjetzihan=self.webpackChunkjetzihan||[]).push([[5839],{18348:a=>{a.exports=JSON.parse('{"label":"MFC","permalink":"/blog/tags/mfc","allTagsPath":"/blog/tags","count":1}')}}]);
