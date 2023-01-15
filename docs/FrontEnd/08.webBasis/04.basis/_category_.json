@@ -1,0 +1,8 @@
+{
+  "label": "系列文章",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "前端学习系列文章"
+  }
+}
