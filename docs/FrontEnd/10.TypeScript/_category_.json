@@ -1,0 +1,8 @@
+{
+  "label": "TypeScript",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+    "description": "TypeScript 是 JavaScript 的一个超集，主要提供了类型系统。"
+  }
+}
