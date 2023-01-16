@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jetzihan.netlify.app/blog</id>
     <title>Jetzihan Blog</title>
-    <updated>2022-12-20T00:00:00.000Z</updated>
+    <updated>2023-01-16T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jetzihan.netlify.app/blog"/>
     <subtitle>Jetzihan Blog</subtitle>
     <icon>https://jetzihan.netlify.app/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[创建一个属于自己的组件库]]></title>
+        <id>componentsLibrary</id>
+        <link href="https://jetzihan.netlify.app/blog/componentsLibrary"/>
+        <updated>2023-01-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[1]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/td-head-img.png" alt="1" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="考虑的问题">考虑的问题<a class="hash-link" href="#考虑的问题" title="Direct link to heading">​</a></h2><ul><li>代码结构</li><li>样式解决方案</li><li>组件需求分析和编码</li><li>组件测试用例分析和编码</li><li>代码打包输出和发布</li><li>CI/CD，文档生成等</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="项目创建">项目创建<a class="hash-link" href="#项目创建" title="Direct link to heading">​</a></h2><p>创建 React 项目：  </p><div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">npx create-react-app triangle-design typescript</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
+        <author>
+            <name>Chengzihan</name>
+            <uri>https://github.com/inannan423</uri>
+        </author>
+        <category label="React" term="React"/>
+        <category label="TypeScript" term="TypeScript"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[数字视频处理基本方法]]></title>
         <id>videoprocess</id>
