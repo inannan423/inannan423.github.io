@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjetzihan=self.webpackChunkjetzihan||[]).push([[3114],{41452:a=>{a.exports=JSON.parse('{"label":"Strapi","permalink":"/blog/tags/strapi","allTagsPath":"/blog/tags","count":1}')}}]);
