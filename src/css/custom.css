@@ -436,3 +436,17 @@ h1 {
 .navbar-sidebar {
   z-index: 10000 !important;
 }
+
+.thin-scrollbar::-webkit-scrollbar-thumb{
+  background: #2e80ec !important;
+  border-radius: 0 !important;
+}
+
+.thin-scrollbar::-webkit-scrollbar-track{
+  background: #2e80ec14 !important;
+  border-radius: 0 !important;
+}
+
+.thin-scrollbar::-webkit-scrollbar {
+  width: 3px;
+}

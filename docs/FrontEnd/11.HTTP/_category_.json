@@ -1,0 +1,8 @@
+{
+  "label": "HTTP 协议",
+  "position": 11,
+  "link": {
+    "type": "generated-index",
+    "description": "HTTP 协议是互联网上应用最为广泛的一种网络协议。本章介绍 HTTP 协议的基本概念和工作原理。"
+  }
+}
