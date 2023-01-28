@@ -442,6 +442,10 @@ npm install react-markdown
 
 ![2](https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20230127212835.png)  
 
+名称任意取。这里的**主机**一项需要填写 IP 地址，可以在服务器控制台获取。  
+
+![2](https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/1674873395143.png)
+
 注意要在 Azure 面板放行端口号22. 否则无法连接。
 
 ![2](https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/1674826229190.png)
@@ -528,9 +532,13 @@ pm2 start server.js
 pm2 list
 ```
 
+- 如何在没有证书和域名时测试 Strapi ？  
+
+使用 PM2 启动 Strapi 后，你就可以在 Azure 安全组中放行你的 Strapi 服务的端口，然后使用 IP 加端口的方式来访问你的 Strapi 服务。比如我这里是 1337 端口，所以我可以通过 `http://<IP>:1337/admin` 来访问 Strapi 的后台管理页面。当然，如果你不嫌麻烦，可以用 Nginx 配置反向代理，然后访问。
+
 ### Next.js 部署
 
-步骤类似，这里不再赘述。  
+步骤类似，这里不再赘述。上传打包后的工程，安装依赖，启动 PM2 进程即可。
 
 ### Nginx 配置
 
@@ -546,7 +554,7 @@ sudo vim /etc/nginx/nginx.conf
 server {
         listen       80;
         server_name  xxx.com;   # 你的域名
-        return 301 https://$server_name$request_uri;
+        return 301 https://$server_name$request_uri;    # 重定向到 https
 }
 
 server {
@@ -560,19 +568,19 @@ server{
         server_name xxx.com;
         ssl_certificate /etc/nginx/cert/ssl.crt;    # 你的证书路径
         ssl_certificate_key  /etc/nginx/cert/ssl.key;   # 你的证书密钥路径
-        ssl_session_timeout  5m;
-        ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:ECDHE:ECDH:AES:HIGH:!NULL:!aNULL:!MD5:!ADH:!RC4;
-        ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
-        ssl_prefer_server_ciphers on;
+        ssl_session_timeout  5m;    # 会话超时时间
+        ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:ECDHE:ECDH:AES:HIGH:!NULL:!aNULL:!MD5:!ADH:!RC4;    # 加密套件
+        ssl_protocols TLSv1 TLSv1.1 TLSv1.2;    # 协议
+        ssl_prefer_server_ciphers on;   # 优先使用服务器端加密套件
 
-location /{
-        proxy_pass http://localhost:3000;   # 你的 Next.js 服务器端口
-        proxy_http_version 1.1;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection 'upgrade';
-        proxy_set_header Host $host;
-        proxy_cache_bypass $http_upgrade;
-}
+        location /{
+                proxy_pass http://localhost:3000;   # 你的 Next.js 服务器端口
+                proxy_http_version 1.1;    # http 版本
+                proxy_set_header Upgrade $http_upgrade;   # 设置升级头
+                proxy_set_header Connection 'upgrade';  # 设置连接头
+                proxy_set_header Host $host;    # 设置主机头
+                proxy_cache_bypass $http_upgrade;   # 设置缓存头
+        }
 }
 
 server{
@@ -602,6 +610,131 @@ server{
 :wq
 ```
 
+这里监听了 80 和 443 端口，分别用于 http 和 https。我们将 80 端口的请求重定向到 443 端口，这样就可以使用 https 访问所有服务。
+
 这里，你还没有申请域名和证书呢，所以我们暂时先别管这些，去申请证书和域名。
 
 ## 域名申请
+
+域名我使用的是 GitHub Student Developer Pack 提供的域名，是 Name.com 的域名，可以免费申请一个 `.live` 的域名。点击下面的连接，使用 GitHub 账号登录，然后申请一个域名。  
+
+[Name.com Student](https://www.name.com/partner/github-students)  
+
+输入心仪的域名，按回车提交，在下面找到想要的域名，可以发现价格都是 0 元，加入购物车。  
+
+![1](https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/1674873229127.png)
+
+接着在 My Domains 下找到你刚刚申请的域名，点击域名进入管理页面。  
+
+点击管理 DNS 记录。  
+
+![2](https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/1674873557904.png)  
+
+添加两条 A 记录，一台的主机名为 `@`，另一台的主机名为 `admin`。**回答**都指向你的服务器 IP。TTL 设置为 300 秒。
+
+## 证书申请
+
+这里我们使用 ZeroSSL 来申请免费的证书。SSL 证书分为多种，有 DV（Domain Validation）、OV（Organization Validation）、EV（Extended Validation）等，DV 证书是最简单的，只需要验证域名的所有权，OV 和 EV 证书需要验证组织的所有权，需要更多的信息。DV 证书可以申请到免费的证书，OV 和 EV 证书需要付费。  
+
+打开 [ZeroSSL](https://zerossl.com/)，点击 Get Free SSL。
+
+![2](https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/1674873759717.png)  
+
+使用邮箱注册账号。点击 New Certificate。  
+
+![2](https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/1674873854607.png)  
+
+输入你的域名，点击 Next。  
+
+![2](https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20230128104500.png)  
+
+选择一张 90 天内有效的证书，点击 Next。（一年的证书需要付费）  
+
+![2](https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20230128104533.png)  
+
+接着一直点击 Next，直到新的页面出现。在验证页面，选择使用 DNS 验证。将 Name 和 Points To 的值复制下来。
+
+![2](https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/1674874024637.png)
+
+在 Name.com 的管理页面，添加一条 CNAME 记录，主机名为 Name，值为 Points To。  
+
+![2](https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/1674874111665.png)  
+
+由于有两个域名，所以申请两张证书。  
+
+添加好后，回到 ZeroSSL 的验证页面，点击 Next。接着点击验证。验证成功后，点击下载 Nginx 证书。  
+
+![2](https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/1674874237630.png)  
+
+每份证书都有两个文件，一个是证书文件，一个是私钥文件。将两个文件下载下来。下载好两张证书后，将份证书（共四张）上传到服务器的 `/etc/nginx/cert` 目录下。没有这个目录的话，可以自己创建。  
+
+![2](https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20230128105442.png)
+
+接着，在 Nginx 的配置文件中，修改证书的路径。  
+
+```bash
+sudo vim /etc/nginx/nginx.conf
+```
+
+```nginx title="/etc/nginx/nginx.conf"
+ssl_certificate /etc/nginx/cert/ssl.crt;    # 你的证书路径
+ssl_certificate_key  /etc/nginx/cert/ssl.key;   # 你的证书密钥路径
+```
+
+## 检查 Nginx 配置
+
+待一切配置完成后，可以使用 `nginx -t` 来检查 Nginx 的配置是否正确。
+
+```bash
+sudo nginx -t
+```
+
+如果配置正确，会显示 `nginx: the configuration file /etc/nginx/nginx.conf syntax is ok`。  
+
+接着重启 Nginx。
+
+```bash
+sudo nginx -s reload
+```
+
+## 放行端口
+
+你需要在 Azure 的网络安全组中，放行 80 和 443 端口。这个上面放行 22 端口的时候已经讲过了，这里不再赘述。
+
+## 常见问题
+
+- 我的 Strapi 不会返回媒体数据（如图片）？  
+
+这是因为 Strapi 默认不返回媒体数据，可以在接口后面加上 `?populate=*` 来返回媒体数据。详见 [文档](https://docs.strapi.io/developer-docs/latest/developer-resources/database-apis-reference/rest/populating-fields.html#relation-media-fields)
+
+![2](https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/img_v2_c2cf3653-d8ba-4718-b064-95da121367fg.jpg)
+
+- 在操作 Ubuntu 时，经常出现无权限的问题，这是因为你的账号不是 root 账号，所以需要使用 `sudo` 命令来执行命令。
+
+- 对于国内的服务器，可能在安装 npm 依赖时，会出现网络问题，这里可以使用 `cnpm` 来安装依赖。  
+
+```bash
+sudo npm install -g cnpm --registry=https://registry.npm.taobao.org
+```
+
+- 明明都已经配置好了，但是访问网站时，还是会出现 `ERR_CONNECTION_REFUSED`。这是因为你的服务器没有放行 80 和 443 等相应的端口，所以需要在 Azure 的网络安全组中，放行 80 和 443 端口。
+
+- Next 和 Strapi 服务启动失败。请现在本地启动 Next 和 Strapi 服务，进行测试，待没有问题后，再将服务部署到服务器上。  
+
+- 如何在没有证书和域名时测试 Strapi ？  
+
+使用 PM2 启动 Strapi 后，你就可以在 Azure 安全组中放行你的 Strapi 服务的端口，然后使用 IP 加端口的方式来访问你的 Strapi 服务。比如我这里是 1337 端口，所以我可以通过 `http://<IP>:1337/admin` 来访问 Strapi 的后台管理页面。  
+
+- 服务器部署完后 Next.js 无法请求接口？  
+
+那应该是你的软编码没改，需要将 `http://localhost:1337` 改为你的服务器的 IP 地址，或者你的域名。  
+
+- 阿里云等服务器访问资源慢？
+
+因为国内服务器限制带宽（为1-5M），而 Azure 不会，所以尽量压缩你的资源文件，比如图片、视频等。或者使用 Cloudflare 的 CDN 来加速你的网站。  
+
+- Nginx 检查配置文件时，出现各种报错？  
+
+这是因为你的配置文件语法或者格式有问题，需要检查你的配置文件。可以在下方留言，我会尽快回复你。  
+
+如果对你有帮助，欢迎点赞和分享。  
